@@ -1,0 +1,164 @@
+.qcontainer {
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 750px;
+    background: rgba(218, 165, 32, 0.2);
+    border: 1px solid #e6e6e6;
+    padding: 35px 20px;
+    border-radius: 30px;
+    text-align: left;
+    -webkit-box-align: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+
+}
+.question {
+    margin : auto;
+    margin-top: 9px;
+    background: rgba(255, 255, 255);
+    border: 1px solid #e6e6e6;
+    /* padding: 35px 20px; */
+    border-radius: 30px;
+    text-align: left;
+    -webkit-box-align: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+    text-align: center;
+}
+.qulist {
+    color: gray;
+    font-size: 20pt;
+    text-align: center;
+}
+.btntable{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.leftblank {
+    text-align: right;
+}
+.rightblank {
+    text-align: left;
+}
+.ansbtn, .wrbtn {
+    background-color: rgba(196, 196, 196, 0.705);
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+    position: relative;
+    border-radius: 30px;
+}
+a.href{
+    text-decoration-line: none;
+    color:black;
+    font-weight: 600;
+}
+.postcontainer {
+    margin-top: 75px;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 750px;
+    background: rgba(196, 196, 196, 0.37);
+    border: 1px solid #e6e6e6;
+    padding: 35px 20px;
+    border-radius: 30px;
+    text-align: left;
+    -webkit-box-align: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+}
+.memberul {
+    float: right;
+    list-style: none;
+    width: 45%;
+    position: relative;
+    left: -50%;
+}
+.memberImg {
+    border: 3px solid white;
+    width:  80px;
+    height: 80px;
+    border-radius: 70%;
+}
+.nick {
+    font-size: 20pt;
+}
+.date {
+    font-size: 10pt;
+}
+.imgs{
+    text-align: center;
+}
+.bimg {
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+}
+.board {
+    margin : auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255);
+    border: 1px solid #e6e6e6;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    text-align: left;
+}
+.write {
+
+}
+.re{
+    margin-top: 30px;
+}
+.rewriter {
+    border: none;
+    border-radius: 30px;
+    width: 80%;
+    height: 50px;
+    padding-left: 40px;
+    font-size: 11pt;
+}
+.confirm {
+    background-color: rgba(196, 196, 196, 0.705);
+    border: none;
+    height: 50px;
+    width: 10%;
+    float: right;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.seere {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.renick {
+    font-size: 15pt;
+}
+.review {
+    font-size: 12pt;
+    padding-left: 20px;
+    font-weight: 100;
+}
+.footblank {
+    margin : auto;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    background: rgba(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    text-align: left;
+}
