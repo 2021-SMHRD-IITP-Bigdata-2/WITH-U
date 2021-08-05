@@ -1,0 +1,32 @@
+.footer {
+    background-color: #2f4f4f;
+    /*하단 고정*/
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.nav {
+    float: right;
+    list-style: none;
+    width: 45%;
+    position: relative;
+    left: -50%;
+}
+ul.nav li {
+    float: left;
+    position: relative;
+    left: 50%
+}
+ul.nav a {
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 0 5px;
+    text-decoration: none;
+}
+i#icon{
+    font-size: 2em;
+}
+.starhref, .diaryhref, .homehref, .testhref, .mypagehref {
+    margin-left: 2px;
+}
