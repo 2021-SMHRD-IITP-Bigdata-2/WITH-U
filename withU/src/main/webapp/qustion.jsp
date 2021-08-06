@@ -1,10 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<title>Insert title here</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/question.css">
 </head>
@@ -25,8 +25,8 @@
             <div class="btn">
                 <input class ="radio" type="radio" name="private" value="공개"><label>공개</label>
                 <input class ="radio" type="radio" name="private" value="비공개"><label>비공개</label>
-                <button type="submit" class="save"><a class= "btnhref" href="main_fin.html">저장하기</a></button>
-                <button type="submit" class="back"><a class= "btnhref" href="main_fin.html">돌아가기</a></button>
+                <button type="submit" class="save"><a class= "btnhref" href="main.jsp">저장하기</a></button>
+                <button type="submit" class="back"><a class= "btnhref" href="main.jsp">돌아가기</a></button>
             </div>
         </div>
     </div> <!-- contaier end -->

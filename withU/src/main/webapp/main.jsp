@@ -1,13 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<title>Insert title here</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+	<%@ include file = "header.jsp" %>
     <div class="container">
         <div class="qcontainer">
             <div class="question">
@@ -30,7 +31,7 @@
         </div>
         <div class="postcontainer">
             <div class="member">
-                <img class = "memberImg"src="images/profile.jpg">
+                <img class = "memberImg"src="images/profile1.jpg">
                 <strong class="nick">닉네임</strong>
                 <strong class="date">21.08.04 Wen 16:50</strong>
                 
@@ -52,7 +53,7 @@
         </div>
         <div class="postcontainer">
             <div class="member">
-                <img class = "memberImg"src="images/profile.jpg">
+                <img class = "memberImg"src="images/profile1.jpg">
                 <strong class="nick">닉네임</strong>
                 <strong class="date">21.08.04 Wen 16:50</strong>
                 
@@ -79,5 +80,6 @@
         </div>
         <div class="footblank"></div>
     </div>
+    <%@ include file = "footer.jsp" %>
 </body>
 </html>
