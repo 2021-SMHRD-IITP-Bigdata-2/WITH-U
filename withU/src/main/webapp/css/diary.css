@@ -1,8 +1,17 @@
+html, body{
+    background-color: #869393;
+    height: 100%;
+}
+div.container{
+    max-width: 750px;
+    margin: 0 auto; /* 화면 가운데로 */
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box; 
+}
 .diary{
     margin-top: 150px;
-    margin-left: 70px;
     margin-bottom: 150px;
-    width: 750px;
     background: rgba(196, 196, 196, 0.37);
     border: 1px solid #e6e6e6;
     padding: 35px 20px;
@@ -20,7 +29,7 @@
     border: none;
     border-bottom: 3px solid white;
     height: 50px;
-    width: 700px;
+    width: 92%;
     font-size: 20pt;
     color: black;
     font-weight: 600;
@@ -48,8 +57,9 @@ i#imgicon{
     text-align: center;
 }
 .imgsize{
-    width: 50%;
-    height: 50%;
+    max-width: 97%;
+    max-height: 100%;
+    border-radius: 10px;
 }
 .textp{
     text-align: center;
