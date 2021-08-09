@@ -1,0 +1,42 @@
+.testResult{
+    margin: 150px auto;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    height: 200px;
+}
+
+
+.number{
+    height: 10px;
+}
+
+.score{
+    font-size: 25px;
+    width: 80px;
+    height: 30px;
+}
+
+#myChart {
+    margin-top: 90px;
+    margin-right: 30px;
+
+    width: 100px;
+}
+
+.bgcolor{
+    background-color: #c4c4c4;
+    height: 100px;
+}
+
+#comment{
+    font-size: 10px;
+    line-height: 30px;
+}
+
+.chart{
+    margin: 0 auto;
+}

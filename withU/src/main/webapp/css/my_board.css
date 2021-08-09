@@ -187,9 +187,6 @@ body{
     font-size: 13px
 }
 
-.timeline-content > img{
-    size: ;
-}
 .timeline-content:after,
 .timeline-content:before {
     content: '';

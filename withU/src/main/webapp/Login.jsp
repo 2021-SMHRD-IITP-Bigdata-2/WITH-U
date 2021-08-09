@@ -1,7 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -20,25 +22,25 @@
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="text" class="id" placeholder="ÏïÑÏù¥ÎîîÎ•º ÏûÖÎ†•Ìï¥Ï£ºÏÑ∏Ïöî">
+                        <input type="text" class="id" placeholder="æ∆¿Ãµ∏¶ ¿‘∑¬«ÿ¡÷ººø‰">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="password" class="pw" placeholder="ÎπÑÎ∞ÄÎ≤àÌò∏">
+                        <input type="password" class="pw" placeholder="∫Òπ–π¯»£">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type="submit" class="loginBtn"><a class= "loginHref1"href="">Î°úÍ∑∏Ïù∏</a></button>
+                    <button type="submit" class="loginBtn"><a class= "loginHref1"href="">∑Œ±◊¿Œ</a></button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <a class= "loginHref2" href="" tabindex="0">ÎπÑÎ∞ÄÎ≤àÌò∏Î•º ÏûäÏúºÏÖ®ÎÇòÏöî?</a>
+                    <a class= "loginHref2" href="" tabindex="0">∫Òπ–π¯»£∏¶ ¿ÿ¿∏ºÃ≥™ø‰?</a>
                 </td>
             </tr>
             
@@ -46,9 +48,9 @@
                 <td>
                     <div class="loginJo">
                         <p class="loginQ">
-                            Í≥ÑÏ†ïÏù¥ ÏóÜÏúºÏã†Í∞ÄÏöî?
+                            ∞Ë¡§¿Ã æ¯¿∏Ω≈∞°ø‰?
                             <a class = "loginHref3" href="join_fin.html" tabindex="0">
-                                <span class="loginjoin" >Í∞ÄÏûÖÌïòÍ∏∞</span>
+                                <span class="loginjoin" >∞°¿‘«œ±‚</span>
                             </a>
                         </p>
                     </div>
