@@ -49,7 +49,7 @@
                     <div class="loginJo">
                         <p class="loginQ">
                             계정이 없으신가요?
-                            <a class = "loginHref3" href="join_fin.html" tabindex="0">
+                            <a class = "loginHref3" href="Join.jsp" tabindex="0">
                                 <span class="loginjoin" >가입하기</span>
                             </a>
                         </p>

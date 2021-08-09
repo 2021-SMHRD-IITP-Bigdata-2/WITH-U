@@ -1,0 +1,110 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/setDday.css"/>
+    <link rel="stylesheet" href="css/sidebar.css">
+</head>
+<body>
+    <!-- 사이드바 -->     
+    <div class="sideBar">
+
+        <!-- 사이드 타잍틀 -->
+        <div class="sideTitle">
+            <span><p class="title"><a class = "href" href="main_fin.html">WITH U</a></p></span>
+        </div>
+
+        <!-- D-DAY -->
+        <div class="sideDay">
+            <h1 class="day">D - 14</h1>
+        </div>
+
+        <!-- 프로필 이미지 -->
+        <div class="sideImg">
+            <div class="img">
+                <p class="imgs"><img class = "profileImg "src="images/profile.jpg" alt="profileimg"></p>
+            </div>
+        </div>
+
+        <!-- 닉네임 -->
+        <div class = "sideNick">
+            <div class="nick">
+                <span class="nickName">Chan</span>
+            </div>
+        </div>
+
+        <!-- 자기 소개 -->
+        <div class="sideSelf">
+            <p class="yourself">이것이 뭐하는 짓인지 알 수 없죠?</p>
+        </div>
+
+        <!-- 버튼 모임-->
+        <div class="sideBtn1">
+            <button type="submit" class="logout"><a class = "href" href="login_fin.html">로그아웃</a></button>
+        </div>
+        <div class="sideBtn2">
+            <button type="submit" class="member"><a class = "href" href="">회원정보수정</a></button>
+        </div>
+        <div class="sideBtn3">
+            <button type="submit" class="dday"><a class = "href" href="">D-Day 수정</a></button>
+        </div>
+    </div><!-- 사이드바 끝 -->
+    <div class="main-container">
+        <header id="my_header">
+            <div class="headerimg">
+                <img class="headimg" id="headerImg" src="images/titlelogo1.png"/>
+            </div>
+        </header>
+
+        <table class="setday">
+            <tr>
+                <td colspan="3"><h1 class="setTitle">자가격리 기간 설정</h1></td>
+            </tr>
+            <tr>
+                <td colspan="3"><p>
+                    자가격리를 시작하는 날짜와 자가격리 종료 예정일을 입력하면 <br>
+                    매일 남은 자가격리 기간을 확인할 수 있어요.<br>
+                    종료일을 입력하지 않으면 자동으로 14일이 지정됩니다.<br>
+                </p></td>
+            </tr>
+            <tr class="hr">
+                <td><p>자가격리 시작 일</p></td>
+                <td>></td>
+                <td>자가격리 종료 일</td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="">
+                        <input type="date" name="start"/>
+                    </form>
+                </td>
+                <td></td>
+                <td>
+                    <form action="">
+                        <input type="date" name="end"/>
+                    </form>
+                </td>
+            </tr>
+            <tr class="btn">
+                <td class="Cbtn">
+                    <br>
+                    <form action="">
+                        <input class = "setbtn"  type="submit" value="취소하기"/>
+                    </form>
+                </td>
+                <td></td>
+                <td class="Sbtn">
+                    <form action="">
+                        <input class = "setbtn" type="submit" value="저장하기"/>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
