@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="css/sidebar.css">
 </head>
 <body>
-    <!-- 사이드바 -->     
+    <!-- --------------------------BEGIN SIDEBAR-------------------------------->    
     <div class="sideBar">
 
-        <!-- 사이드 타잍틀 -->
+        <!-- 사이드 타이틀 -->
         <div class="sideTitle">
-            <span><p class="title"><a class = "href" href="main_fin.html">WITH U</a></p></span>
+            <span><p class="title"><a class = "href" href="Main.jsp">WITH U</a></p></span>
         </div>
 
         <!-- D-DAY -->
@@ -53,7 +53,10 @@
         <div class="sideBtn3">
             <button type="submit" class="dday"><a class = "href" href="">D-Day 수정</a></button>
         </div>
-    </div><!-- 사이드바 끝 -->
+    </div>
+    <!-- --------------------------END SIDEBAR-------------------------------->
+    
+    
     <div class="main-container">
         <header id="my_header">
             <div class="headerimg">
