@@ -67,7 +67,7 @@ div.container{
     position: relative;
     border-radius: 30px;
 }
-a.href{
+.mhref{
     text-decoration-line: none;
     color:black;
     font-weight: 600;
