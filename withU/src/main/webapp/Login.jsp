@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,25 +22,25 @@
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="text" class="id" placeholder="¾ÆÀÌµð¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä">
+                        <input type="text" class="id" placeholder="ì•„ì´ë””ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš”">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="password" class="pw" placeholder="ºñ¹Ð¹øÈ£">
+                        <input type="password" class="pw" placeholder="ë¹„ë°€ë²ˆí˜¸">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type="submit" class="loginBtn"><a class= "loginHref1"href="">·Î±×ÀÎ</a></button>
+                    <button type="submit" class="loginBtn"><a class= "loginHref1"href="">ë¡œê·¸ì¸</a></button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <a class= "loginHref2" href="" tabindex="0">ºñ¹Ð¹øÈ£¸¦ ÀØÀ¸¼Ì³ª¿ä?</a>
+                    <a class= "loginHref2" href="" tabindex="0">ë¹„ë°€ë²ˆí˜¸ë¥¼ ìžŠìœ¼ì…¨ë‚˜ìš”?</a>
                 </td>
             </tr>
             
@@ -48,9 +48,9 @@
                 <td>
                     <div class="loginJo">
                         <p class="loginQ">
-                            °èÁ¤ÀÌ ¾øÀ¸½Å°¡¿ä?
+                            ê³„ì •ì´ ì—†ìœ¼ì‹ ê°€ìš”?
                             <a class = "loginHref3" href="Join.jsp" tabindex="0">
-                                <span class="loginjoin" >°¡ÀÔÇÏ±â</span>
+                                <span class="loginjoin" >ê°€ìž…í•˜ê¸°</span>
                             </a>
                         </p>
                     </div>
