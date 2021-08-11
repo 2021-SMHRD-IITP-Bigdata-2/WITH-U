@@ -26,12 +26,12 @@
 						<td class="leftblank"></td>
 						<td>
 							<button type="submit" class="ansbtn">
-								<a class="mhref" href="qustion.html">질문에 답하기</a>
+								<a class="mhref" href="Question.jsp">질문에 답하기</a>
 							</button>
 						</td>
 						<td>
 							<button type="submit" class="wrbtn">
-								<a class="mhref" href="">다이어리 쓰기</a>
+								<a class="mhref" href="Diary.jsp">다이어리 쓰기</a>
 							</button>
 						</td>
 						<td class="rightblank"></td>

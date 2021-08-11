@@ -46,13 +46,13 @@
 
         <!-- 버튼 모임-->
         <div class="sideBtn1">
-            <button type="submit" class="logout"><a class = "href" href="login_fin.html">로그아웃</a></button>
+            <button type="submit" class="logout"><a class = "href" href="Main.jsp">로그아웃</a></button>
         </div>
         <div class="sideBtn2">
-            <button type="submit" class="member"><a class = "href" href="">회원정보수정</a></button>
+            <button type="submit" class="member"><a class = "href" href="Update.jsp">회원정보수정</a></button>
         </div>
         <div class="sideBtn3">
-            <button type="submit" class="dday"><a class = "href" href="">D-Day 수정</a></button>
+            <button type="submit" class="dday"><a class = "href" href="SetDday.jsp">D-Day 수정</a></button>
         </div>
     </div><!-- 사이드바 끝 -->
 
