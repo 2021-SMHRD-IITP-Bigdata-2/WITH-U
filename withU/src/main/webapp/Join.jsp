@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="join">
+    <form action="JoinCon" method="post">
         <table class="joinTable">
             <tr>
                 <td>
@@ -25,41 +26,41 @@
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="text" class="id" placeholder="아이디">
+                        <input type="text" class="id"  name="id" placeholder="아이디">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="password" class="pw" placeholder="비밀번호">
+                        <input type="password" class="pw" name="pw" placeholder="비밀번호">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="text" class="nick" placeholder="닉네임">
+                        <input type="text" class="nick" name="nick" placeholder="닉네임">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="text" class="name" placeholder="성명">
+                        <input type="text" class="name" name="name" placeholder="성명">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="tel" class="tel" placeholder="전화번호">
+                        <input type="tel" class="tel" name="tel" placeholder="전화번호">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type="submit" class="joinBtn"> <a class= "joinHref1" href=""> 가입 </a> </button>
+                    <button type="submit" class="joinBtn"> <a class= "joinHref1" href="Login.jsp"> 가입 </a> </button>
                 </td>
             </tr>
             <tr>
@@ -67,7 +68,7 @@
                     <div class="joinLog">
                         <p class="joinQ">
                             계정이 있으신가요?
-                            <a class = "joinHref2" href="login_fin.html" tabindex="0">
+                            <a class = "joinHref2" href="Login.jsp" tabindex="0">
                                 <span class="joinLogin" >로그인</span>
                             </a>
                         </p>
@@ -75,6 +76,7 @@
                 </td>
             </tr>
         </table>
+        </form>
     </div>
 </body>
 </html>
