@@ -12,10 +12,10 @@
 <body>
     <div class="header">
         <div class="wrapper">
-            <a class = "logoA" href="#"><h1 class="logo">WITH U</h1></a>
+            <a class = "logoA" href="Main.jsp"><h1 class="logo">WITH U</h1></a>
             <div class="menu">
                 <ul class="nav">
-                    <li class="navli"><a href="sidebar_fin.html"><img class="profile" src="images/profile.jpg" alt=""></a></li>
+                    <li class="navli"><a href="MyBoard.jsp"><img class="profile" src="images/profile.jpg" alt=""></a></li>
                 </ul>
             </div>
         </div>
