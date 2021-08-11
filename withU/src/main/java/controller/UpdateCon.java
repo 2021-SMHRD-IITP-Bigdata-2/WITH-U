@@ -44,8 +44,6 @@ public class UpdateCon extends HttpServlet {
 		
 		
 		if(cnt > 0) {
-			
-			session.setAttribute("login_member", update_member);
 			response.sendRedirect("Main.jsp");
 			System.out.println("정보수정 성공");
 

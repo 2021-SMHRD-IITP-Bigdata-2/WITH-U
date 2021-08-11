@@ -130,13 +130,13 @@ public class MemberDAO {
 			try {
 				connection();
 				
-		        String sql = "UPDATE PROFILE SET NICK=? PW=? NAME=? TEL=? BIR=? GENDER=? ADDR=? WHERE ID=?";
+		        String sql = "UPDATE PROFILE SET PW=?, NICK=?, NAME=?, TEL=?, BIR=?, GENDER=?, ADDR=? WHERE ID=?";
 		         
 		        psmt = conn.prepareStatement(sql);
 		         // ↑ DB로 보내기 전 셋팅
 		         // DB 쪽으로 보낼 SQL문 정의, '보낼 정보 몇개다' 미리 알려줌
-		         psmt.setString(1,update_member.getNick());
-		         psmt.setString(2,update_member.getPw());
+		         psmt.setString(1,update_member.getPw());
+		         psmt.setString(2,update_member.getNick());
 		         psmt.setString(3,update_member.getName());
 		         psmt.setString(4,update_member.getTel());
 		         psmt.setString(5,update_member.getBir());
@@ -148,9 +148,9 @@ public class MemberDAO {
 		         
 				
 			} catch (SQLException e) {
+				System.out.println("sql문 오류");
 				e.printStackTrace();
 			} finally {
-				
 				close();
 			}
 			return cnt;

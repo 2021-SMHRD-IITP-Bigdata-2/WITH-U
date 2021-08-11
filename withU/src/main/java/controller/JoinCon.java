@@ -29,7 +29,7 @@ public class JoinCon extends HttpServlet {
 		
 		
 		MemberDAO dao = new MemberDAO();
-		MemberDTO member = new MemberDTO(id, pw, name, nick, tel);
+		MemberDTO member = new MemberDTO(id, pw, name, nick, tel, null, null, null, null);
 		
 
 		int cnt = dao.member_join(member);

@@ -42,22 +42,6 @@ public class MemberDTO {
 	}
 	
 
-	public MemberDTO(String id, String pw, String name, String nick, String tel) {
-
-		this.id = id;
-		this.pw = pw;
-		this.name = name;
-		this.nick = nick;
-		this.tel = tel;
-	}
-	
-	public MemberDTO(String id, String pw) {
-		super();
-		this.id = id;
-		this.pw = pw;
-	}
-
-
 	// toString
 	@Override
 	public String toString() {
