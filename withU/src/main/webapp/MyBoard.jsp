@@ -1,5 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import="model.MemberDTO" %>
+<%
+	MemberDTO member = (MemberDTO)session.getAttribute("login_member");
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,13 +53,13 @@
 
         <!-- 버튼 모임-->
         <div class="sideBtn1">
-            <button type="submit" class="logout"><a class = "href" href="login_fin.html">로그아웃</a></button>
+            <button type="submit" class="logout"><a class = "href" href="logout.jsp">로그아웃</a></button>
         </div>
         <div class="sideBtn2">
-            <button type="submit" class="member"><a class = "href" href="">회원정보수정</a></button>
+            <button type="submit" class="member"><a class = "href" href="Update.jsp">회원정보수정</a></button>
         </div>
         <div class="sideBtn3">
-            <button type="submit" class="dday"><a class = "href" href="">D-Day 수정</a></button>
+            <button type="submit" class="dday"><a class = "href" href="SetDday.jsp">D-Day 수정</a></button>
         </div>
     </div>
     <!-- --------------------------END SIDEBAR--------------------------------->

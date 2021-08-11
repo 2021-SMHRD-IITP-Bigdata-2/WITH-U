@@ -17,7 +17,7 @@
                 <tr class="foottr">
                     <td class="leftblank">　</td>
                     <td class="star">
-                        <a class = fhref href="">
+                        <a class = fhref href="Item.jsp">
                             <i id ="icon" class="fas fa-star"></i>
                             <br>
                             <p class="font">ITME</p>
@@ -25,28 +25,28 @@
                         </a>
                     </td>
                     <td class="diary">
-                        <a class = fhref href="#">
+                        <a class = fhref href="Diary.jsp">
                             <i id ="icon" class="fas fa-pencil-alt"></i>
                             <br>
                             <p class="font">DIARY</p>
                         </a>
                     </td>
                     <td class="home">
-                        <a class = fhref href="#">
+                        <a class = fhref href="Main.jsp">
                             <i id ="icon" class="fas fa-home"></i>
                             <br>
                             <p class="font">HOME</p>
                         </a>
                     </td>
                     <td class="test">
-                        <a class = fhref href="">
+                        <a class = fhref href="Test.jsp">
                             <i id ="icon" class="fas fa-clipboard-list"></i>
                             <br>
                             <p class="font">TEST</p>
                         </a>
                     </td>
                     <td class="mypage">
-                        <a class = fhref href="sidebar_fin.html">
+                        <a class = fhref href="MyBoard.jsp">
                             <i id ="icon" class="far fa-laugh-wink"></i>
                             <br>
                             <p class="font">MYPAGE</p>

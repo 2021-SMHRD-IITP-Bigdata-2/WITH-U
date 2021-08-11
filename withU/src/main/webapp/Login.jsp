@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,31 +11,32 @@
 </head>
 <body>
     <div class="login">
+    <form action="LoginCon" method="post">
         <table class="loginTable">
             <tr>
                 <td>
                     <div class="loginTitle">
-                        <p><h1>WITH U</h1></p>
+                        <h1>WITH U</h1>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="text" class="id" placeholder="아이디를 입력해주세요">
+                        <input type="text" class="id" name="id" placeholder="아이디를 입력해주세요">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="password" class="pw" placeholder="비밀번호">
+                        <input type="password" class="pw" name="pw" placeholder="비밀번호">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type="submit" class="loginBtn"><a class= "loginHref1"href="">로그인</a></button>
+                    <button type="submit" class="loginBtn"><a class= "loginHref1"href="Main.jsp">로그인</a></button>
                 </td>
             </tr>
             <tr>
@@ -57,6 +58,7 @@
                 </td>
             </tr>
         </table>
+        </form>
     </div>
 </body>
 </html>
