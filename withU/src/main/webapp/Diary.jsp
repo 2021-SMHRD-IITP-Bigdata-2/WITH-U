@@ -47,6 +47,6 @@
     <!-- ---------------------------END CONTENT----------------------------------->
 	
 	<!-- footer include -->
-<%-- 	<%@ include file = "footer.jsp" %> --%>
+	<%@ include file = "footer.jsp" %>
 </body>
 </html>
