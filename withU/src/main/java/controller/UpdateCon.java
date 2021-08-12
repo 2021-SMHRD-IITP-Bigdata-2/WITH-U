@@ -35,7 +35,7 @@ public class UpdateCon extends HttpServlet {
 		String p_img = request.getParameter("p_img");
 		
 		
-		// ¼öÁ¤ÇÒ 3°³ÀÇ Á¤º¸¸¦ °´Ã¼·Î ¹­¾î¼­ »ý¼º --> DB¿¡ Àü´Þ
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½î¼­ ï¿½ï¿½ï¿½ï¿½ --> DBï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		MemberDTO update_member = new MemberDTO(id, pw, name, nick, tel, addr, bir, gender, p_img);
 		
 		MemberDAO dao = new MemberDAO();
@@ -45,10 +45,10 @@ public class UpdateCon extends HttpServlet {
 		
 		if(cnt > 0) {
 			response.sendRedirect("Main.jsp");
-			System.out.println("Á¤º¸¼öÁ¤ ¼º°ø");
+			System.out.println("update success");
 
 	    } else {
-	    	System.out.println("Á¤º¸¼öÁ¤ ½ÇÆÐ...");
+	    	System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½...");
 	    	response.sendRedirect("Update.jsp");
 	    }	
 	}

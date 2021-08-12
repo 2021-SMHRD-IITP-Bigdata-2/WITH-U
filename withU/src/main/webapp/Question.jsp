@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="EUC-KR">
 <title>Insert title here</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/question.css">
@@ -17,9 +17,9 @@
 	<div class="container">
 		<div class="qcontainer">
 			<div class="question">
-				<strong><span class="qulist">ê·¸ë‚  ì´ì•¼ê¸°ë¥¼ ë“¤ì€ ë‹¹ì‹ ì˜ ìƒê°ì€?</span></strong>
+				<strong><span class="qulist">±×³¯ ÀÌ¾ß±â¸¦ µéÀº ´ç½ÅÀÇ »ý°¢Àº?</span></strong>
 				<div class="qreset">
-					<a class="qhref" href=""> <span class="sub">ì§ˆë¬¸ë°”ê¾¸ê¸°</span> <i
+					<a class="qhref" href=""> <span class="sub">Áú¹®¹Ù²Ù±â</span> <i
 						id="qicon" class="fas fa-redo"></i>
 					</a>
 				</div>
@@ -28,17 +28,17 @@
 			<div class="text">
 				<p class="textp">
 					<textarea class="textbox" name="textbox" cols="90" rows="20"
-						placeholder="ì§ˆë¬¸ì— ë‹µí•´ì£¼ì„¸ìš”!"></textarea>
+						placeholder="Áú¹®¿¡ ´äÇØÁÖ¼¼¿ä!"></textarea>
 				</p>
 			</div>
 			<div class="btn">
-				<input class="radio" type="radio" name="private" value="ê³µê°œ"><label>ê³µê°œ</label>
-				<input class="radio" type="radio" name="private" value="ë¹„ê³µê°œ"><label>ë¹„ê³µê°œ</label>
+				<input class="radio" type="radio" name="private" value="°ø°³"><label>°ø°³</label>
+				<input class="radio" type="radio" name="private" value="ºñ°ø°³"><label>ºñ°ø°³</label>
 				<button type="submit" class="save">
-					<a class="btnhref" href="main_fin.html">ì €ìž¥í•˜ê¸°</a>
+					<a class="btnhref" href="main_fin.html">ÀúÀåÇÏ±â</a>
 				</button>
 				<button type="submit" class="back">
-					<a class="btnhref" href="main_fin.html">ëŒì•„ê°€ê¸°</a>
+					<a class="btnhref" href="main_fin.html">µ¹¾Æ°¡±â</a>
 				</button>
 			</div>
 		</div>

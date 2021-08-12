@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="EUC-KR">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -15,7 +15,7 @@
         <div class="table">
             <table class="footTable">
                 <tr class="foottr">
-                    <td class="leftblank">ã€€</td>
+                    <td class="leftblank">¡¡</td>
                     <td class="star">
                         <a class = fhref href="Item.jsp">
                             <i id ="icon" class="fas fa-star"></i>
@@ -52,7 +52,7 @@
                             <p class="font">MYPAGE</p>
                         </a>
                     </td>
-                    <td class="rightblank">ã€€</td>
+                    <td class="rightblank">¡¡</td>
                 </tr>
             </table>
         </div>

@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="EUC-KR">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -18,7 +18,7 @@
                     <div class="joinTitle">
                         <p><h1>WITH U</h1></p>
                         <div class="joinSub">
-                            <span>ÎãπÏã†Ïùò Ïù¥ÏïºÍ∏∞Î•º ÎàÑÍµ∞Í∞ÄÏôÄ Í≥µÏú†ÌïòÎ†§Î©¥ <br> Í∞ÄÏûÖÌïòÏÑ∏Ïöî.</span>
+                            <span>¥ÁΩ≈¿« ¿Ãæﬂ±‚∏¶ ¥©±∫∞°øÕ ∞¯¿Ø«œ∑¡∏È <br> ∞°¿‘«œººø‰.</span>
                         </div>
                     </div>
                 </td>
@@ -26,50 +26,50 @@
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="text" class="id"  name="id" placeholder="ÏïÑÏù¥Îîî">
+                        <input type="text" class="id"  name="id" placeholder="æ∆¿Ãµ">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="password" class="pw" name="pw" placeholder="ÎπÑÎ∞ÄÎ≤àÌò∏">
+                        <input type="password" class="pw" name="pw" placeholder="∫Òπ–π¯»£">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="text" class="nick" name="nick" placeholder="ÎãâÎÑ§ÏûÑ">
+                        <input type="text" class="nick" name="nick" placeholder="¥–≥◊¿”">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="text" class="name" name="name" placeholder="ÏÑ±Î™Ö">
+                        <input type="text" class="name" name="name" placeholder="º∫∏Ì">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="tel" class="tel" name="tel" placeholder="Ï†ÑÌôîÎ≤àÌò∏">
+                        <input type="tel" class="tel" name="tel" placeholder="¿¸»≠π¯»£">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type="submit" class="joinBtn"> <a class= "joinHref1" href="Login.jsp"> Í∞ÄÏûÖ </a> </button>
+                    <button type="submit" class="joinBtn"> <a class= "joinHref1" href="Login.jsp"> ∞°¿‘ </a> </button>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="joinLog">
                         <p class="joinQ">
-                            Í≥ÑÏ†ïÏù¥ ÏûàÏúºÏã†Í∞ÄÏöî?
+                            ∞Ë¡§¿Ã ¿÷¿∏Ω≈∞°ø‰?
                             <a class = "joinHref2" href="Login.jsp" tabindex="0">
-                                <span class="joinLogin" >Î°úÍ∑∏Ïù∏</span>
+                                <span class="joinLogin" >∑Œ±◊¿Œ</span>
                             </a>
                         </p>
                     </div>

@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
 <%@ page import="model.MemberDTO" %>
 <%
 	MemberDTO member = (MemberDTO)session.getAttribute("login_member");
@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="EUC-KR">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
@@ -17,10 +17,10 @@
 	crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-	<!-- ì‚¬ì´ë“œë°” -->
+	<!-- »çÀÌµå¹Ù -->
 	<div class="sideBar">
 
-		<!-- ì‚¬ì´ë“œ íƒ€ì´í‹€ -->
+		<!-- »çÀÌµå Å¸ÀÌÆ² -->
 		<div class="sideTitle">
 			<span><p class="title">
 					<a class="href" href="Main.jsp">WITH U</a>
@@ -32,7 +32,7 @@
 			<h1 class="day">D - 14</h1>
 		</div>
 
-		<!-- í”„ë¡œí•„ ì´ë¯¸ì§€ -->
+		<!-- ÇÁ·ÎÇÊ ÀÌ¹ÌÁö -->
 		<div class="sideImg">
 			<div class="img">
 				<p class="imgs">
@@ -41,47 +41,47 @@
 			</div>
 		</div>
 
-		<!-- ë‹‰ë„¤ìž„ -->
+		<!-- ´Ð³×ÀÓ -->
 		<div class="sideNick">
 			<div class="nick">
 				<span class="nickName">Chan</span>
 			</div>
 		</div>
 
-		<!-- ìžê¸° ì†Œê°œ -->
+		<!-- ÀÚ±â ¼Ò°³ -->
 		<div class="sideSelf">
-			<p class="yourself">ì´ê²ƒì´ ë­í•˜ëŠ” ì§“ì¸ì§€ ì•Œ ìˆ˜ ì—†ì£ ?</p>
+			<p class="yourself">ÀÌ°ÍÀÌ ¹¹ÇÏ´Â ÁþÀÎÁö ¾Ë ¼ö ¾øÁÒ?</p>
 		</div>
 
-		<!-- ë²„íŠ¼ ëª¨ìž„-->
+		<!-- ¹öÆ° ¸ðÀÓ-->
 		<div class="sideBtn1">
 			<button type="submit" class="logout">
-				<a class="href" href="Logout.jsp">ë¡œê·¸ì•„ì›ƒ</a>
+				<a class="href" href="Logout.jsp">·Î±×¾Æ¿ô</a>
 			</button>
 		</div>
 		<div class="sideBtn2">
 			<button type="submit" class="member">
-				<a class="href" href="Update.jsp">íšŒì›ì •ë³´ìˆ˜ì •</a>
+				<a class="href" href="Update.jsp">È¸¿øÁ¤º¸¼öÁ¤</a>
 			</button>
 		</div>
 		<div class="sideBtn3">
 			<button type="submit" class="dday">
-				<a class="href" href="SetDday.jsp">D-Day ìˆ˜ì •</a>
+				<a class="href" href="SetDday.jsp">D-Day ¼öÁ¤</a>
 			</button>
 		</div>
 	</div>
-	<!-- ì‚¬ì´ë“œë°” ë -->
+	<!-- »çÀÌµå¹Ù ³¡ -->
 
-	<!-- íšŒì›ì •ë³´ ìˆ˜ì • ì‹œìž‘! -->
+	<!-- È¸¿øÁ¤º¸ ¼öÁ¤ ½ÃÀÛ! -->
 	<div class="main-container">
 		<form action="UpdateCon" method="post">
 			<div class="topblank">
 				<br>
 			</div>
 			<div class="editmember">
-				<span class="titlecenter">íšŒì›ì •ë³´ ìˆ˜ì •</span>
+				<span class="titlecenter">È¸¿øÁ¤º¸ ¼öÁ¤</span>
 			</div>
-			<!-- Title ë -->
+			<!-- Title ³¡ -->
 
 			<div class="divphoto">
 				<div id="image_container">
@@ -90,13 +90,13 @@
 					</p>
 					<br>
 					<button class="browse_btn">
-						<i class="far fa-image" id="imgicon"></i> <span class="photo">í”„ë¡œí•„
-							ì‚¬ì§„ ë°”ê¾¸ê¸°</span>
+						<i class="far fa-image" id="imgicon"></i> <span class="photo">ÇÁ·ÎÇÊ
+							»çÁø ¹Ù²Ù±â</span>
 					</button>
 					<input class="image_file" type="file" accept="image/*"
 						id="real-input" onchange="setThumbnail(event);">
 				</div>
-				<!-- í”„ë¡œí•„ ì´ë¯¸ì§€ ë³€ê²½ ë-->
+				<!-- ÇÁ·ÎÇÊ ÀÌ¹ÌÁö º¯°æ ³¡-->
 
 				<div class="editform">
 					<table class="editTable">
@@ -104,35 +104,35 @@
 							<td>
 								<div class="editNick">
 									<div class="inputForm">
-										<input type="text" class="nick" name="nick" placeholder="ë‹‰ë„¤ìž„">
+										<input type="text" class="nick" name="nick" placeholder="´Ð³×ÀÓ">
 									</div>
 							</td>
 						</tr>
 						<tr>
 							<td>
 								<div class="inputForm">
-									<input type="password" class="pw" name="pw" placeholder="ë¹„ë°€ë²ˆí˜¸">
+									<input type="password" class="pw" name="pw" placeholder="ºñ¹Ð¹øÈ£">
 								</div>
 							</td>
 						</tr>
 						<tr>
 							<td>
 								<div class="inputForm">
-									<input type="password" class="pw" placeholder="ë¹„ë°€ë²ˆí˜¸ í™•ì¸">
+									<input type="password" class="pw" placeholder="ºñ¹Ð¹øÈ£ È®ÀÎ">
 								</div>
 							</td>
 						</tr>
 						<tr>
 							<td>
 								<div class="inputForm">
-									<input type="text" class="name" name="name" placeholder="ì„±ëª…">
+									<input type="text" class="name" name="name" placeholder="¼º¸í">
 								</div>
 							</td>
 						</tr>
 						<tr>
 							<td>
 								<div class="inputForm">
-									<input type="tel" class="tel" name="tel" placeholder="ì „í™”ë²ˆí˜¸">
+									<input type="tel" class="tel" name="tel" placeholder="ÀüÈ­¹øÈ£">
 								</div>
 							</td>
 						</tr>
@@ -140,7 +140,7 @@
 							<td>
 								<div class="inputForm">
 									<h2>
-										<br>ì¶”ê°€ ì •ë³´ ìž…ë ¥í•˜ê¸°
+										<br>Ãß°¡ Á¤º¸ ÀÔ·ÂÇÏ±â
 									</h2>
 								</div>
 							</td>
@@ -148,7 +148,7 @@
 						<tr>
 							<td>
 								<div class="inputForm">
-									ìƒë…„ì›”ì¼ <input type="date" style="margin-left: 30px;">
+									»ý³â¿ùÀÏ <input type="date" style="margin-left: 30px;">
 								</div>
 							</td>
 						</tr>
@@ -156,26 +156,26 @@
 						<tr>
 							<td>
 								<div class="inputForm">
-									<input type="radio" name="gender" value="female">ì—¬ì„± <input
+									<input type="radio" name="gender" value="female">¿©¼º <input
 										type="radio" name="gender" value="male"
-										style="margin-left: 100px;">ë‚¨ì„±
+										style="margin-left: 100px;">³²¼º
 								</div>
 							</td>
 						</tr>
 						<tr>
 							<td>
 								<div class="inputForm">
-									<input type="text" class="addr" name="addr" placeholder="ì£¼ì†Œ">
+									<input type="text" class="addr" name="addr" placeholder="ÁÖ¼Ò">
 								</div>
 							</td>
 						</tr>
 						<tr>
 							<td>
 								<button type="submit" class="saveBtn">
-									<a class="editHref1" href="Update.jsp"> ì €ìž¥í•˜ê¸° </a>
+									<a class="editHref1" href="Update.jsp"> ÀúÀåÇÏ±â </a>
 								</button>
 								<button class="closeBtn">
-									<a class="editHref1" href="Update.jsp"> ì·¨ì†Œí•˜ê¸° </a>
+									<a class="editHref1" href="Update.jsp"> Ãë¼ÒÇÏ±â </a>
 								</button>
 							</td>
 						</tr>

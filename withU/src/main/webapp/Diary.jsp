@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="EUC-KR">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -19,13 +19,13 @@
 	<div class="container">
         <div class="diary">
             <div class="title">
-                <input class = "titleIn" type="text" placeholder="ì œëª©ì„ ìž…ë ¥í•´ì£¼ì„¸ìš”">
+                <input class = "titleIn" type="text" placeholder="Á¦¸ñÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä">
             </div>
             <div class="divphoto">
                 <input class="image_file" type="file" accept="image/*" id="real-input" onchange="setThumbnail(event);">
                 <button class="browse_btn">
                     <i class="far fa-image" id="imgicon"></i>
-                    <span class="photo">ì‚¬ì§„ì„ ì¶”ê°€í•˜ì„¸ìš”</span>
+                    <span class="photo">»çÁøÀ» Ãß°¡ÇÏ¼¼¿ä</span>
                 </button>
                 <div id="image_container">
                     <p class="imgcenter"><img class="imgsize" src="images/preview.png" id="img_section"></p>
@@ -33,13 +33,13 @@
             </div>
             <div class="textbox">
                 <div class="text">
-                    <p class="textp"><textarea class = "textbox" name="textbox" cols="90" rows="20" placeholder="ê¸€ì„ ìž‘ì„±í•˜ëŠ” ê³µê°„ìž…ë‹ˆë‹¤."></textarea></p>
+                    <p class="textp"><textarea class = "textbox" name="textbox" cols="90" rows="20" placeholder="±ÛÀ» ÀÛ¼ºÇÏ´Â °ø°£ÀÔ´Ï´Ù."></textarea></p>
                 </div>
             <div class="btn">
-                <input class ="radio" type="radio" name="private" value="ê³µê°œ"><label>ê³µê°œ</label>
-                <input class ="radio" type="radio" name="private" value="ë¹„ê³µê°œ"><label>ë¹„ê³µê°œ</label>
-                <button type="submit" class="save"><a class= "btnhref" href="main_fin.html">ì €ìž¥í•˜ê¸°</a></button>
-                <button type="submit" class="back"><a class= "btnhref" href="main_fin.html">ëŒì•„ê°€ê¸°</a></button>
+                <input class ="radio" type="radio" name="private" value="°ø°³"><label>°ø°³</label>
+                <input class ="radio" type="radio" name="private" value="ºñ°ø°³"><label>ºñ°ø°³</label>
+                <button type="submit" class="save"><a class= "btnhref" href="main_fin.html">ÀúÀåÇÏ±â</a></button>
+                <button type="submit" class="back"><a class= "btnhref" href="main_fin.html">µ¹¾Æ°¡±â</a></button>
             </div>
             </div>
         </div>

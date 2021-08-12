@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <%@ page import="model.MemberDTO" %>
 <%
 	MemberDTO member = (MemberDTO)session.getAttribute("login_member");
@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="EUC-KR">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -22,7 +22,7 @@
     <!-- --------------------------BEGIN SIDEBAR--------------------------------->     
     <div class="sideBar">
 
-        <!-- ì‚¬ì´ë“œ íƒ€ì´í‹€ -->
+        <!-- »çÀÌµå Å¸ÀÌÆ² -->
         <div class="sideTitle">
             <span><p class="title"><a class = "href" href="Main.jsp">WITH U</a></p></span>    
         </div>
@@ -32,29 +32,29 @@
             <h1 class="day">D - 14</h1>
         </div>
 
-        <!-- í”„ë¡œí•„ ì´ë¯¸ì§€ -->
+        <!-- ÇÁ·ÎÇÊ ÀÌ¹ÌÁö -->
         <div class="sideImg">
             <div class="img">
                 <p class="imgs"><img class = "profileImg "src="images/profile.jpg" alt="profileimg"></p>
             </div>
         </div>
 
-        <!-- ë‹‰ë„¤ì„ -->
+        <!-- ´Ğ³×ÀÓ -->
         <div class = "sideNick">
             <div class="nick">
                 <span class="nickName">Chan</span>
             </div>
         </div>
 
-        <!-- ë²„íŠ¼ ëª¨ì„-->
+        <!-- ¹öÆ° ¸ğÀÓ-->
         <div class="sideBtn1">
-            <button type="submit" class="logout"><a class = "href" href="Logout.jsp">ë¡œê·¸ì•„ì›ƒ</a></button>
+            <button type="submit" class="logout"><a class = "href" href="Logout.jsp">·Î±×¾Æ¿ô</a></button>
         </div>
         <div class="sideBtn2">
-            <button type="submit" class="member"><a class = "href" href="Update.jsp">íšŒì›ì •ë³´ìˆ˜ì •</a></button>
+            <button type="submit" class="member"><a class = "href" href="Update.jsp">È¸¿øÁ¤º¸¼öÁ¤</a></button>
         </div>
         <div class="sideBtn3">
-            <button type="submit" class="dday"><a class = "href" href="SetDday.jsp">D-Day ìˆ˜ì •</a></button>
+            <button type="submit" class="dday"><a class = "href" href="SetDday.jsp">D-Day ¼öÁ¤</a></button>
         </div>
     </div>
     <!-- --------------------------END SIDEBAR--------------------------------->
@@ -67,9 +67,9 @@
             </div>
             <nav id="header-menu">
                 <ul >
-                    <li class="nav-item"><a href="#" data-toggle="tab" id="see">ê¸€ ë³´ê¸°</a></li>
-                    <li class="nav-item"><a href="TestResult.jsp" data-toggle="tab" id="nonsee">ìê°€ì§„ë‹¨ ê²°ê³¼</a></li>
-                    <li class="nav-item"><a href="MyLike.jsp" data-toggle="tab" id="nonsee">í•„ìˆ˜í…œ ì°œ ëª©ë¡</a></li>
+                    <li class="nav-item"><a href="#" data-toggle="tab" id="see">±Û º¸±â</a></li>
+                    <li class="nav-item"><a href="TestResult.jsp" data-toggle="tab" id="nonsee">ÀÚ°¡Áø´Ü °á°ú</a></li>
+                    <li class="nav-item"><a href="MyLike.jsp" data-toggle="tab" id="nonsee">ÇÊ¼öÅÛ Âò ¸ñ·Ï</a></li>
                 </ul>
             </nav>
         </header>
@@ -81,7 +81,7 @@
             <!-- BEGIN TIMELINE -->
             <ul class="timeline">
 
-                <!--ì²«ë²ˆì§¸ ê¸€-->
+                <!--Ã¹¹øÂ° ±Û-->
                 <li>
                 <!-- begin timeline-time -->
                 <div class="timeline-time">
@@ -99,7 +99,7 @@
                 <!-- begin timeline-body -->
                 <div class="timeline-body">
                     <div class="timeline-content">
-                        <h1>ê·¸ë‚ ì˜ ì´ì•¼ê¸°ë¥¼ ë“¤ì€ ë‹¹ì‹ ì˜ ìƒê°ì€?</h1>
+                        <h1>±×³¯ÀÇ ÀÌ¾ß±â¸¦ µéÀº ´ç½ÅÀÇ »ı°¢Àº?</h1>
                         <p><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus turpis quis tincidunt luctus.
                             Nam sagittis dui in nunc consequat, in imperdiet nunc sagittis.
                         </p>
@@ -108,7 +108,7 @@
                 <!-- end timeline-body -->
                 </li>
 
-                <!--ë‘ë²ˆì§¸ ê¸€-->
+                <!--µÎ¹øÂ° ±Û-->
                 <li>
                     <!-- begin timeline-time -->
                     <div class="timeline-time">
@@ -126,7 +126,7 @@
                     <!-- begin timeline-body -->
                     <div class="timeline-body">
                         <div class="timeline-content">
-                            <h1>ì˜¤ëŠ˜ì€ ì†Œë‚˜ê¸°ê°€ ì™•ì°½ ë‚´ë¦° ë‚  !</h1>
+                            <h1>¿À´ÃÀº ¼Ò³ª±â°¡ ¿ÕÃ¢ ³»¸° ³¯ !</h1>
                             <p class="pcenter">
                                 <img class="diaryImg" src="images/rock.png">
                             </p>

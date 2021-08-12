@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="EUC-KR">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -18,13 +18,13 @@
 		<div class="container">
 			<div class="favorite-container">
 				<div class="favorite-title">
-					<strong class="selflike">ìžê°€ê²©ë¦¬, í•¨ê»˜í•˜ë©´ ì¢‹ì•„ìš”!</strong><br>
-					<br> <span class="sublike">ìžê°€ê²©ë¦¬ì— í•„ìš”í•œ ë¬¼í’ˆ ë¶€í„°, ê¸´ ê¸°ê°„ì„ ì‹¬ì‹¬í•˜ì§€
-						ì•Šê²Œ í•´ì¤„ ë¬¼í’ˆë“¤ì„ ì†Œê°œí•©ë‹ˆë‹¤.<br>
-					</span> <span class="sublike">ì¦ê²¨ì°¾ê¸°ë¥¼ í†µí•´ ë§ˆì´íŽ˜ì´ì§€ì—ì„œë„ í™•ì¸í•  ìˆ˜ ìžˆì–´ìš”.</span>
+					<strong class="selflike">ÀÚ°¡°Ý¸®, ÇÔ²²ÇÏ¸é ÁÁ¾Æ¿ä!</strong><br>
+					<br> <span class="sublike">ÀÚ°¡°Ý¸®¿¡ ÇÊ¿äÇÑ ¹°Ç° ºÎÅÍ, ±ä ±â°£À» ½É½ÉÇÏÁö
+						¾Ê°Ô ÇØÁÙ ¹°Ç°µéÀ» ¼Ò°³ÇÕ´Ï´Ù.<br>
+					</span> <span class="sublike">Áñ°ÜÃ£±â¸¦ ÅëÇØ ¸¶ÀÌÆäÀÌÁö¿¡¼­µµ È®ÀÎÇÒ ¼ö ÀÖ¾î¿ä.</span>
 				</div>
 			</div>
-			<!-- ì•„ì´í…œ ë¦¬ìŠ¤íŠ¸ í‘œí˜„í•˜ëŠ” ê³µê°„ -->
+			<!-- ¾ÆÀÌÅÛ ¸®½ºÆ® Ç¥ÇöÇÏ´Â °ø°£ -->
 			<dir class="favorite-item">
 				<div class="item-img">
 					<p class="pcenter">
@@ -33,9 +33,9 @@
 					</p>
 				</div>
 				<div class="item-name">
-					<strong class="i-name">ìŠ¤ë§ˆíŠ¸í° ê±°ì¹˜ëŒ€</strong> <br>
-					<br> <span class="i-review">ê²©ë¦¬ ì¤‘ ìŠ¤ë§ˆíŠ¸í° ì‚¬ìš©ëŸ‰ì´ ë§Žì•„ì§€ë©´ì„œ ìŠ¤ë§ˆíŠ¸í°ì„
-						ë”ìš± íŽ¸ë¦¬í•˜ê²Œ ë³¼ ìˆ˜ ìžˆì–´ìš”</span>
+					<strong class="i-name">½º¸¶Æ®Æù °ÅÄ¡´ë</strong> <br>
+					<br> <span class="i-review">°Ý¸® Áß ½º¸¶Æ®Æù »ç¿ë·®ÀÌ ¸¹¾ÆÁö¸é¼­ ½º¸¶Æ®ÆùÀ»
+						´õ¿í Æí¸®ÇÏ°Ô º¼ ¼ö ÀÖ¾î¿ä</span>
 				</div>
 				<div class="favorite-set">
 					<div class="button-container like-container">
@@ -56,8 +56,8 @@
 					</p>
 				</div>
 				<div class="item-name">
-					<strong class="i-name">ì»¤í”Œìž ì˜·</strong> <br>
-					<br> <span class="i-review">ë”ìš´ ì—¬ë¦„ ì‹œì›í•œ ìž ìžë¦¬</span>
+					<strong class="i-name">Ä¿ÇÃÀá¿Ê</strong> <br>
+					<br> <span class="i-review">´õ¿î ¿©¸§ ½Ã¿øÇÑ ÀáÀÚ¸®</span>
 				</div>
 				<div class="favorite-set">
 					<div class="button-container like-container">
@@ -70,7 +70,7 @@
 					</div>
 				</div>
 			</dir>
-			<!-- ë°‘ì¤„ ì—¬ë°± ê³µê°„-->
+			<!-- ¹ØÁÙ ¿©¹é °ø°£-->
 			<div class="footblank"></div>
 		</div>
 	</div>

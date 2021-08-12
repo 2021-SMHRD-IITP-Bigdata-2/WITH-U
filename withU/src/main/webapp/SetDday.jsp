@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="EUC-KR">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -14,7 +14,7 @@
     <!-- --------------------------BEGIN SIDEBAR-------------------------------->    
     <div class="sideBar">
 
-        <!-- ì‚¬ì´ë“œ íƒ€ì´í‹€ -->
+        <!-- »çÀÌµå Å¸ÀÌÆ² -->
         <div class="sideTitle">
             <span><p class="title"><a class = "href" href="Main.jsp">WITH U</a></p></span>
         </div>
@@ -24,34 +24,34 @@
             <h1 class="day">D - 14</h1>
         </div>
 
-        <!-- í”„ë¡œí•„ ì´ë¯¸ì§€ -->
+        <!-- ÇÁ·ÎÇÊ ÀÌ¹ÌÁö -->
         <div class="sideImg">
             <div class="img">
                 <p class="imgs"><img class = "profileImg "src="images/profile.jpg" alt="profileimg"></p>
             </div>
         </div>
 
-        <!-- ë‹‰ë„¤ìž„ -->
+        <!-- ´Ð³×ÀÓ -->
         <div class = "sideNick">
             <div class="nick">
                 <span class="nickName">Chan</span>
             </div>
         </div>
 
-        <!-- ìžê¸° ì†Œê°œ -->
+        <!-- ÀÚ±â ¼Ò°³ -->
         <div class="sideSelf">
-            <p class="yourself">ì´ê²ƒì´ ë­í•˜ëŠ” ì§“ì¸ì§€ ì•Œ ìˆ˜ ì—†ì£ ?</p>
+            <p class="yourself">ÀÌ°ÍÀÌ ¹¹ÇÏ´Â ÁþÀÎÁö ¾Ë ¼ö ¾øÁÒ?</p>
         </div>
 
-        <!-- ë²„íŠ¼ ëª¨ìž„-->
+        <!-- ¹öÆ° ¸ðÀÓ-->
         <div class="sideBtn1">
-            <button type="submit" class="logout"><a class = "href" href="Logout.jsp">ë¡œê·¸ì•„ì›ƒ</a></button>
+            <button type="submit" class="logout"><a class = "href" href="Logout.jsp">·Î±×¾Æ¿ô</a></button>
         </div>
         <div class="sideBtn2">
-            <button type="submit" class="member"><a class = "href" href="Update.jsp">íšŒì›ì •ë³´ìˆ˜ì •</a></button>
+            <button type="submit" class="member"><a class = "href" href="Update.jsp">È¸¿øÁ¤º¸¼öÁ¤</a></button>
         </div>
         <div class="sideBtn3">
-            <button type="submit" class="dday"><a class = "href" href="SetDday.jsp">D-Day ìˆ˜ì •</a></button>
+            <button type="submit" class="dday"><a class = "href" href="SetDday.jsp">D-Day ¼öÁ¤</a></button>
         </div>
     </div>
     <!-- --------------------------END SIDEBAR-------------------------------->
@@ -66,19 +66,19 @@
 
         <table class="setday">
             <tr>
-                <td colspan="3"><h1 class="setTitle">ìžê°€ê²©ë¦¬ ê¸°ê°„ ì„¤ì •</h1></td>
+                <td colspan="3"><h1 class="setTitle">ÀÚ°¡°Ý¸® ±â°£ ¼³Á¤</h1></td>
             </tr>
             <tr>
                 <td colspan="3"><p>
-                    ìžê°€ê²©ë¦¬ë¥¼ ì‹œìž‘í•˜ëŠ” ë‚ ì§œì™€ ìžê°€ê²©ë¦¬ ì¢…ë£Œ ì˜ˆì •ì¼ì„ ìž…ë ¥í•˜ë©´ <br>
-                    ë§¤ì¼ ë‚¨ì€ ìžê°€ê²©ë¦¬ ê¸°ê°„ì„ í™•ì¸í•  ìˆ˜ ìžˆì–´ìš”.<br>
-                    ì¢…ë£Œì¼ì„ ìž…ë ¥í•˜ì§€ ì•Šìœ¼ë©´ ìžë™ìœ¼ë¡œ 14ì¼ì´ ì§€ì •ë©ë‹ˆë‹¤.<br>
+                    ÀÚ°¡°Ý¸®¸¦ ½ÃÀÛÇÏ´Â ³¯Â¥¿Í ÀÚ°¡°Ý¸® Á¾·á ¿¹Á¤ÀÏÀ» ÀÔ·ÂÇÏ¸é <br>
+                    ¸ÅÀÏ ³²Àº ÀÚ°¡°Ý¸® ±â°£À» È®ÀÎÇÒ ¼ö ÀÖ¾î¿ä.<br>
+                    Á¾·áÀÏÀ» ÀÔ·ÂÇÏÁö ¾ÊÀ¸¸é ÀÚµ¿À¸·Î 14ÀÏÀÌ ÁöÁ¤µË´Ï´Ù.<br>
                 </p></td>
             </tr>
             <tr class="hr">
-                <td><p>ìžê°€ê²©ë¦¬ ì‹œìž‘ ì¼</p></td>
+                <td><p>ÀÚ°¡°Ý¸® ½ÃÀÛ ÀÏ</p></td>
                 <td>></td>
-                <td>ìžê°€ê²©ë¦¬ ì¢…ë£Œ ì¼</td>
+                <td>ÀÚ°¡°Ý¸® Á¾·á ÀÏ</td>
             </tr>
             <tr>
                 <td>
@@ -97,13 +97,13 @@
                 <td class="Cbtn">
                     <br>
                     <form action="">
-                        <input class = "setbtn"  type="submit" value="ì·¨ì†Œí•˜ê¸°"/>
+                        <input class = "setbtn"  type="submit" value="Ãë¼ÒÇÏ±â"/>
                     </form>
                 </td>
                 <td></td>
                 <td class="Sbtn">
                     <form action="">
-                        <input class = "setbtn" type="submit" value="ì €ìž¥í•˜ê¸°"/>
+                        <input class = "setbtn" type="submit" value="ÀúÀåÇÏ±â"/>
                     </form>
                 </td>
             </tr>

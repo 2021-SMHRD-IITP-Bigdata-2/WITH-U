@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="EUC-KR">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -23,160 +23,160 @@
 				<tr>
 					<td colspan="5" class="testComment"><img class="testImg"
 						src="images/selfTest.png" />
-						<h1>ìš°ìš¸ì¦ ìžê°€ì§„ë‹¨</h1>
+						<h1>¿ì¿ïÁõ ÀÚ°¡Áø´Ü</h1>
 						<p>
-							ì§€ë‚œ ì¼ì£¼ì¼ê°„ ë‹¹ì‹ ì˜ ìƒíƒœì— ê´€í•œ ì§ˆë¬¸ìž…ë‹ˆë‹¤.<br>ì´ì™€ ê°™ì€ ì¼ë“¤ì´ ì–¼ë§ˆë‚˜ ìžì£¼ ì¼ì–´ë‚¬ì—ˆëŠ”ì§€ ì‘ë‹µí•´ì£¼ì„¸ìš”
+							Áö³­ ÀÏÁÖÀÏ°£ ´ç½ÅÀÇ »óÅÂ¿¡ °üÇÑ Áú¹®ÀÔ´Ï´Ù.<br>ÀÌ¿Í °°Àº ÀÏµéÀÌ ¾ó¸¶³ª ÀÚÁÖ ÀÏ¾î³µ¾ú´ÂÁö ÀÀ´äÇØÁÖ¼¼¿ä
 						</p>
 						<br></td>
 				</tr>
 
 				<tr>
-					<th class="testHeader">ë¬¸ í•­</th>
-					<th class="testHeader">ê·¹ížˆë“œë¬¼ë‹¤<br>(ì¼ì£¼ì¼ë™ì•ˆ<br>1ì¼ì´í•˜)
+					<th class="testHeader">¹® Ç×</th>
+					<th class="testHeader">±ØÈ÷µå¹°´Ù<br>(ÀÏÁÖÀÏµ¿¾È<br>1ÀÏÀÌÇÏ)
 					</th>
-					<th class="testHeader">ê°€ë”ìžˆì—ˆë‹¤<br>(ì¼ì£¼ì¼ë™ì•ˆ<br>1~2ì¼)
+					<th class="testHeader">°¡²ûÀÖ¾ú´Ù<br>(ÀÏÁÖÀÏµ¿¾È<br>1~2ÀÏ)
 					</th>
-					<th class="testHeader">ì¢…ì¢…ìžˆì—ˆë‹¤<br>(ì¼ì£¼ì¼ë™ì•ˆ<br>3~4ì¼)
+					<th class="testHeader">Á¾Á¾ÀÖ¾ú´Ù<br>(ÀÏÁÖÀÏµ¿¾È<br>3~4ÀÏ)
 					</th>
-					<th class="testHeader">ëŒ€ë¶€ë¶„ê·¸ëž¬ë‹¤<br>(ì¼ì£¼ì¼ë™ì•ˆ<br>5ì¼ì´ìƒ)
+					<th class="testHeader">´ëºÎºÐ±×·¨´Ù<br>(ÀÏÁÖÀÏµ¿¾È<br>5ÀÏÀÌ»ó)
 					</th>
 				</tr>
 				<tr>
-					<td class="question">1) ì•„ë¬´ë ‡ì§€ë„ ì•Šë˜ ì¼ë“¤ì´ ê´´ë¡­ê³  ê·€ì°®ê²Œ ëŠê»´ì¡Œë‹¤.</td>
+					<td class="question">1) ¾Æ¹«·¸Áöµµ ¾Ê´ø ÀÏµéÀÌ ±«·Ó°í ±ÍÂú°Ô ´À²¸Á³´Ù.</td>
 					<td><input type="radio" name="1st" value="5" /></td>
 					<td><input type="radio" name="1st" value="4" /></td>
 					<td><input type="radio" name="1st" value="3" /></td>
 					<td><input type="radio" name="1st" value="2" /></td>
 				</tr>
 				<tr>
-					<td class="question">2) ë¨¹ê³  ì‹¶ì§€ ì•Šê³  ì‹ìš•ì´ ì—†ë‹¤.</td>
+					<td class="question">2) ¸Ô°í ½ÍÁö ¾Ê°í ½Ä¿åÀÌ ¾ø´Ù.</td>
 					<td><input type="radio" name="2nd" value="5" /></td>
 					<td><input type="radio" name="2nd" value="4" /></td>
 					<td><input type="radio" name="2nd" value="3" /></td>
 					<td><input type="radio" name="2nd" value="2" /></td>
 				</tr>
 				<tr>
-					<td class="question">3) ì–´ëŠ ëˆ„ê°€ ë„ì™€ì¤€ë‹¤ í•˜ë”ë¼ë„ ë‚˜ì˜ ìš¸ì í•œ ê¸°ë¶„ì„ ë–¨ì³ ë²„ë¦´ ìˆ˜ ì—†ì„
-						ê²ƒ ê°™ë‹¤.</td>
+					<td class="question">3) ¾î´À ´©°¡ µµ¿ÍÁØ´Ù ÇÏ´õ¶óµµ ³ªÀÇ ¿ïÀûÇÑ ±âºÐÀ» ¶³ÃÄ ¹ö¸± ¼ö ¾øÀ»
+						°Í °°´Ù.</td>
 					<td><input type="radio" name="3rd" value="5" /></td>
 					<td><input type="radio" name="3rd" value="4" /></td>
 					<td><input type="radio" name="3rd" value="3" /></td>
 					<td><input type="radio" name="3rd" value="2" /></td>
 				</tr>
 				<tr>
-					<td class="question">4) ë¬´ìŠ¨ ì¼ì„ í•˜ë˜ ì •ì‹ ì„ ì§‘ì¤‘í•˜ê¸°ê°€ íž˜ë“¤ì—ˆë‹¤.</td>
+					<td class="question">4) ¹«½¼ ÀÏÀ» ÇÏ´ø Á¤½ÅÀ» ÁýÁßÇÏ±â°¡ Èûµé¾ú´Ù.</td>
 					<td><input type="radio" name="4th" value="5" /></td>
 					<td><input type="radio" name="4th" value="4" /></td>
 					<td><input type="radio" name="4th" value="3" /></td>
 					<td><input type="radio" name="4th" value="2" /></td>
 				</tr>
 				<tr>
-					<td class="question">5) ë¹„êµì  ìž˜ ì§€ëƒˆë‹¤.</td>
+					<td class="question">5) ºñ±³Àû Àß Áö³Â´Ù.</td>
 					<td><input type="radio" name="5th" value="5" /></td>
 					<td><input type="radio" name="5th" value="4" /></td>
 					<td><input type="radio" name="5th" value="3" /></td>
 					<td><input type="radio" name="5th" value="2" /></td>
 				</tr>
 				<tr>
-					<td class="question">6) ìƒë‹¹ížˆ ìš°ìš¸í–ˆë‹¤.</td>
+					<td class="question">6) »ó´çÈ÷ ¿ì¿ïÇß´Ù.</td>
 					<td><input type="radio" name="6th" value="5" /></td>
 					<td><input type="radio" name="6th" value="4" /></td>
 					<td><input type="radio" name="6th" value="3" /></td>
 					<td><input type="radio" name="6th" value="2" /></td>
 				</tr>
 				<tr>
-					<td class="question">7) ëª¨ë“  ì¼ë“¤ì´ íž˜ë“¤ê²Œ ëŠê»´ì¡Œë‹¤.</td>
+					<td class="question">7) ¸ðµç ÀÏµéÀÌ Èûµé°Ô ´À²¸Á³´Ù.</td>
 					<td><input type="radio" name="7th" value="5" /></td>
 					<td><input type="radio" name="7th" class="score4" /></td>
 					<td><input type="radio" name="7th" class="score3" /></td>
 					<td><input type="radio" name="7th" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">8) ì•žì¼ì´ ì•”ë‹´í•˜ê²Œ ëŠê»´ì¡Œë‹¤.</td>
+					<td class="question">8) ¾ÕÀÏÀÌ ¾Ï´ãÇÏ°Ô ´À²¸Á³´Ù.</td>
 					<td><input type="radio" name="8th" class="score5" /></td>
 					<td><input type="radio" name="8th" class="score" /></td>
 					<td><input type="radio" name="8th" class="score3" /></td>
 					<td><input type="radio" name="8th" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">9) ì§€ê¸ˆê¹Œì§€ì˜ ë‚´ ì¸ìƒì€ ì‹¤íŒ¨ìž‘ì´ë¼ëŠ” ìƒê°ì´ ë“¤ì—ˆë‹¤.</td>
+					<td class="question">9) Áö±Ý±îÁöÀÇ ³» ÀÎ»ýÀº ½ÇÆÐÀÛÀÌ¶ó´Â »ý°¢ÀÌ µé¾ú´Ù.</td>
 					<td><input type="radio" name="9th" class="score5" /></td>
 					<td><input type="radio" name="9th" class="score4" /></td>
 					<td><input type="radio" name="9th" class="score3" /></td>
 					<td><input type="radio" name="9th" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">10) ì ì–´ë„ ë³´í†µ ì‚¬ëžŒë“¤ë§Œí¼ì˜ ëŠ¥ë ¥ì€ ìžˆì—ˆë‹¤ê³  ìƒê°í•œë‹¤.</td>
+					<td class="question">10) Àû¾îµµ º¸Åë »ç¶÷µé¸¸Å­ÀÇ ´É·ÂÀº ÀÖ¾ú´Ù°í »ý°¢ÇÑ´Ù.</td>
 					<td><input type="radio" name="10th" class="score5" /></td>
 					<td><input type="radio" name="10th" class="score4" /></td>
 					<td><input type="radio" name="10th" class="score3" /></td>
 					<td><input type="radio" name="10th" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">11) ìž ì„ ì„¤ì³¤ë‹¤(ìž ì„ ìž˜ ì´ë£¨ì§€ ëª»í–ˆë‹¤).</td>
+					<td class="question">11) ÀáÀ» ¼³ÃÆ´Ù(ÀáÀ» Àß ÀÌ·çÁö ¸øÇß´Ù).</td>
 					<td><input type="radio" name="11st" class="score5" /></td>
 					<td><input type="radio" name="11st" class="score4" /></td>
 					<td><input type="radio" name="11st" class="score3" /></td>
 					<td><input type="radio" name="11st" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">12) ë‘ë ¤ì›€ì„ ëŠê¼ˆë‹¤.</td>
+					<td class="question">12) µÎ·Á¿òÀ» ´À²¼´Ù.</td>
 					<td><input type="radio" name="12nd" class="score5" /></td>
 					<td><input type="radio" name="12nd" class="score4" /></td>
 					<td><input type="radio" name="12nd" class="score3" /></td>
 					<td><input type="radio" name="12nd" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">13) í‰ì†Œì— ë¹„í•´ ë§ìˆ˜ê°€ ì ì—ˆë‹¤.</td>
+					<td class="question">13) Æò¼Ò¿¡ ºñÇØ ¸»¼ö°¡ Àû¾ú´Ù.</td>
 					<td><input type="radio" name="13rd" class="score5" /></td>
 					<td><input type="radio" name="13rd" class="score4" /></td>
 					<td><input type="radio" name="13rd" class="score3" /></td>
 					<td><input type="radio" name="13rd" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">14) ì„¸ìƒì— í™€ë¡œ ìžˆëŠ” ë“¯ í•œ ì™¸ë¡œì›€ì„ ëŠê¼ˆë‹¤.</td>
+					<td class="question">14) ¼¼»ó¿¡ È¦·Î ÀÖ´Â µí ÇÑ ¿Ü·Î¿òÀ» ´À²¼´Ù.</td>
 					<td><input type="radio" name="14th" class="score5" /></td>
 					<td><input type="radio" name="14th" class="score4" /></td>
 					<td><input type="radio" name="14th" class="score3" /></td>
 					<td><input type="radio" name="14th" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">15) í° ë¶ˆë§Œ ì—†ì´ ìƒí™œí–ˆë‹¤.</td>
+					<td class="question">15) Å« ºÒ¸¸ ¾øÀÌ »ýÈ°Çß´Ù.</td>
 					<td><input type="radio" name="15th" class="score5" /></td>
 					<td><input type="radio" name="15th" class="score4" /></td>
 					<td><input type="radio" name="15th" class="score3" /></td>
 					<td><input type="radio" name="15th" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">16) ì‚¬ëžŒë“¤ì´ ë‚˜ì—ê²Œ ì°¨ê°‘ê²Œ ëŒ€í•˜ëŠ” ê²ƒ ê°™ì•˜ë‹¤.</td>
+					<td class="question">16) »ç¶÷µéÀÌ ³ª¿¡°Ô Â÷°©°Ô ´ëÇÏ´Â °Í °°¾Ò´Ù.</td>
 					<td><input type="radio" name="16th" class="score5" /></td>
 					<td><input type="radio" name="16th" class="score4" /></td>
 					<td><input type="radio" name="16th" class="score3" /></td>
 					<td><input type="radio" name="16th" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">17) ê°‘ìžê¸° ìš¸ìŒì´ ë‚˜ì™”ë‹¤.</td>
+					<td class="question">17) °©ÀÚ±â ¿ïÀ½ÀÌ ³ª¿Ô´Ù.</td>
 					<td><input type="radio" name="17th" class="score5" /></td>
 					<td><input type="radio" name="17th" class="score4" /></td>
 					<td><input type="radio" name="17th" class="score3" /></td>
 					<td><input type="radio" name="17th" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">18) ë§ˆìŒì´ ìŠ¬íŽë‹¤.</td>
+					<td class="question">18) ¸¶À½ÀÌ ½½Æâ´Ù.</td>
 					<td><input type="radio" name="18th" class="score5" /></td>
 					<td><input type="radio" name="18th" class="score4" /></td>
 					<td><input type="radio" name="18th" class="score3" /></td>
 					<td><input type="radio" name="18th" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">19) ì‚¬ëžŒë“¤ì´ ë‚˜ë¥¼ ì‹«ì–´í•˜ëŠ” ê²ƒ ê°™ì•˜ë‹¤.</td>
+					<td class="question">19) »ç¶÷µéÀÌ ³ª¸¦ ½È¾îÇÏ´Â °Í °°¾Ò´Ù.</td>
 					<td><input type="radio" name="19th" class="score5" /></td>
 					<td><input type="radio" name="19th" class="score4" /></td>
 					<td><input type="radio" name="19th" class="score3" /></td>
 					<td><input type="radio" name="19th" class="score2" /></td>
 				</tr>
 				<tr>
-					<td class="question">20) ë„ë¬´ì§€ ë­˜ í•´ ë‚˜ê°ˆ ì—„ë‘ê°€ ë‚˜ì§€ ì•Šì•˜ë‹¤.</td>
+					<td class="question">20) µµ¹«Áö ¹» ÇØ ³ª°¥ ¾öµÎ°¡ ³ªÁö ¾Ê¾Ò´Ù.</td>
 					<td><input type="radio" name="20th" class="score5" /></td>
 					<td><input type="radio" name="20th" class="score4" /></td>
 					<td><input type="radio" name="20th" class="score3" /></td>
@@ -186,7 +186,7 @@
 					<td colspan="5">
 						<div class="submit">
 							<form action="">
-								<input class="submitin" type="submit" name="" value="ì œì¶œí•˜ê¸°" />
+								<input class="submitin" type="submit" name="" value="Á¦ÃâÇÏ±â" />
 							</form>
 						</div>
 					</td>

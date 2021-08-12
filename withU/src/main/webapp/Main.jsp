@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
 <%@ page import="model.MemberDTO" %>
 <%
 	MemberDTO member = (MemberDTO)session.getAttribute("login_member");
@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="EUC-KR">
 <title>Insert title here</title>
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,19 +23,19 @@
 	 <div class="container">
         <div class="qcontainer">
             <div class="question">
-                <p class="qulist">ê·¸ë‚  ì´ì•¼ê¸°ë¥¼ ë“¤ì€ ë‹¹ì‹ ì˜ ìƒê°ì€?</p>
+                <p class="qulist">±×³¯ ÀÌ¾ß±â¸¦ µéÀº ´ç½ÅÀÇ »ý°¢Àº?</p>
             </div>
             <div class="btn">
                 <table class="btntable">
                     <tr>
-                        <td class="leftblank">ã€€</td>
+                        <td class="leftblank">¡¡</td>
                         <td>
-                            <button type="submit" class="ansbtn"><a class= "href" href="qustion.html">ì§ˆë¬¸ì— ë‹µí•˜ê¸°</a></button>
+                            <button type="submit" class="ansbtn"><a class= "href" href="qustion.html">Áú¹®¿¡ ´äÇÏ±â</a></button>
                         </td>
                         <td>
-                            <button type="submit" class="wrbtn"><a class= "href" href="">ë‹¤ì´ì–´ë¦¬ ì“°ê¸°</a></button>
+                            <button type="submit" class="wrbtn"><a class= "href" href="">´ÙÀÌ¾î¸® ¾²±â</a></button>
                         </td>
-                        <td class="rightblank">ã€€</td>
+                        <td class="rightblank">¡¡</td>
                     </tr>
                 </table>
             </div>
@@ -44,24 +44,24 @@
             <div class="hr">
                 <div class="member">
                     <img class = "memberImg"src="images/profile.jpg">
-                    <strong class="nick">ë‹‰ë„¤ìž„</strong>
+                    <strong class="nick">´Ð³×ÀÓ</strong>
                     <strong class="date">21.08.04 Wed 16:50</strong>
                 </div>
             </div>
             <div class="boardTitle">
-                <span class="btitle"> ì˜¤ëŠ˜ì€ ì†Œë‚˜ê¸°ê°€ ì—„ì²­ ë‚´ë¦°ë‚ </span>
+                <span class="btitle"> ¿À´ÃÀº ¼Ò³ª±â°¡ ¾öÃ» ³»¸°³¯</span>
             </div>
             <div class="board">
-                <p class="write">ê²Œì‹œê¸€ ì ì€ ë‚´ìš©ì´ ë‚˜ì˜µë‹ˆë‹¤</p>
+                <p class="write">°Ô½Ã±Û ÀûÀº ³»¿ëÀÌ ³ª¿É´Ï´Ù</p>
             </div>
             <div class="re">
                 <div class = "rewrite">
-                    <input class ="rewriter" type="text" placeholder="ëŒ“ê¸€ì„ ìž…ë ¥í•˜ì„¸ìš”">
-                    <button type="submit" class="confirm"><a class= "href" href="">ë“±ë¡</a></button>
+                    <input class ="rewriter" type="text" placeholder="´ñ±ÛÀ» ÀÔ·ÂÇÏ¼¼¿ä">
+                    <button type="submit" class="confirm"><a class= "href" href="">µî·Ï</a></button>
                 </div>
                 <div class="seere">
-                        <strong class="renick">ë‹‰ë„¤ìž„</strong>
-                        <strong class="review">ì´ê±° ë˜ëŠ”ê±° ë§žì£ ?</strong>
+                        <strong class="renick">´Ð³×ÀÓ</strong>
+                        <strong class="review">ÀÌ°Å µÇ´Â°Å ¸ÂÁÒ?</strong>
                     </ul>
                 </div>
             </div>
@@ -69,11 +69,11 @@
         <div class="postcontainer">
             <div class="member">
                 <img class = "memberImg"src="images/profile.jpg">
-                <strong class="nick">ë‹‰ë„¤ìž„</strong>
+                <strong class="nick">´Ð³×ÀÓ</strong>
                 <strong class="date">21.08.04 Wen 16:50</strong>
             </div>
             <div class="boardTitle">
-                <span class="btitle"> ì˜¤ëŠ˜ì€ ì†Œë‚˜ê¸°ê°€ ì—„ì²­ ë‚´ë¦°ë‚ </span>
+                <span class="btitle"> ¿À´ÃÀº ¼Ò³ª±â°¡ ¾öÃ» ³»¸°³¯</span>
             </dir>
             <div class="boardimg">
                 <p class="imgs">
@@ -81,16 +81,16 @@
                 </p>
             </div>
             <div class="board">
-                <p class="write">ê²Œì‹œê¸€ ì ì€ ë‚´ìš©ì´ ë‚˜ì˜µë‹ˆë‹¤</p>
+                <p class="write">°Ô½Ã±Û ÀûÀº ³»¿ëÀÌ ³ª¿É´Ï´Ù</p>
             </div>
             <div class="re">
                 <div class = "rewrite">
-                    <input class ="rewriter" type="text" placeholder="ëŒ“ê¸€ì„ ìž…ë ¥í•˜ì„¸ìš”">
-                    <button type="submit" class="confirm"><a class= "href" href="">ë“±ë¡</a></button>
+                    <input class ="rewriter" type="text" placeholder="´ñ±ÛÀ» ÀÔ·ÂÇÏ¼¼¿ä">
+                    <button type="submit" class="confirm"><a class= "href" href="">µî·Ï</a></button>
                 </div>
                 <div class="seere">
-                        <strong class="renick">ë‹‰ë„¤ìž„</strong>
-                        <strong class="review">ì´ê±° ë˜ëŠ”ê±° ë§žì£ ?</strong>
+                        <strong class="renick">´Ð³×ÀÓ</strong>
+                        <strong class="review">ÀÌ°Å µÇ´Â°Å ¸ÂÁÒ?</strong>
                 </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="EUC-KR">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -23,25 +23,25 @@
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="text" class="id" name="id" placeholder="ÏïÑÏù¥ÎîîÎ•º ÏûÖÎ†•Ìï¥Ï£ºÏÑ∏Ïöî">
+                        <input type="text" class="id" name="id" placeholder="æ∆¿Ãµ∏¶ ¿‘∑¬«ÿ¡÷ººø‰">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="inputForm">
-                        <input type="password" class="pw" name="pw" placeholder="ÎπÑÎ∞ÄÎ≤àÌò∏">
+                        <input type="password" class="pw" name="pw" placeholder="∫Òπ–π¯»£">
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type="submit" class="loginBtn"><a class= "loginHref1"href="Main.jsp">Î°úÍ∑∏Ïù∏</a></button>
+                    <button type="submit" class="loginBtn"><a class= "loginHref1"href="Main.jsp">∑Œ±◊¿Œ</a></button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <a class= "loginHref2" href="" tabindex="0">ÎπÑÎ∞ÄÎ≤àÌò∏Î•º ÏûäÏúºÏÖ®ÎÇòÏöî?</a>
+                    <a class= "loginHref2" href="" tabindex="0">∫Òπ–π¯»£∏¶ ¿ÿ¿∏ºÃ≥™ø‰?</a>
                 </td>
             </tr>
             
@@ -49,9 +49,9 @@
                 <td>
                     <div class="loginJo">
                         <p class="loginQ">
-                            Í≥ÑÏ†ïÏù¥ ÏóÜÏúºÏã†Í∞ÄÏöî?
+                            ∞Ë¡§¿Ã æ¯¿∏Ω≈∞°ø‰?
                             <a class = "loginHref3" href="Join.jsp" tabindex="0">
-                                <span class="loginjoin" >Í∞ÄÏûÖÌïòÍ∏∞</span>
+                                <span class="loginjoin" >∞°¿‘«œ±‚</span>
                             </a>
                         </p>
                     </div>
