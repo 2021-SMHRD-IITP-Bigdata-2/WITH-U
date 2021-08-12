@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/SetDday.css"/>
-    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/sidebar.css"/>
 </head>
 <body>
     <!-- --------------------------BEGIN SIDEBAR-------------------------------->    
