@@ -72,9 +72,9 @@
             </div>
             <nav id="header-menu">
                 <ul >
-                    <li class="nav-item"><a href="#profile-post" data-toggle="tab" id="see">글 보기</a></li>
-                    <li class="nav-item"><a href="#" data-toggle="tab" id="nonsee">자가진단 결과</a></li>
-                    <li class="nav-item"><a href="#" data-toggle="tab" id="nonsee">필수템 찜 목록</a></li>
+                    <li class="nav-item"><a href="#" data-toggle="tab" id="see">글 보기</a></li>
+                    <li class="nav-item"><a href="TestResult.jsp" data-toggle="tab" id="nonsee">자가진단 결과</a></li>
+                    <li class="nav-item"><a href="MyLike.jsp" data-toggle="tab" id="nonsee">필수템 찜 목록</a></li>
                 </ul>
             </nav>
         </header>
