@@ -24,7 +24,7 @@
 
         <!-- 사이드 타이틀 -->
         <div class="sideTitle">
-            <span><p class="title"><a class = "href" href="main_fin.html">WITH U</a></p></span>    
+            <span><p class="title"><a class = "href" href="Main.jsp">WITH U</a></p></span>    
         </div>
 
         <!-- D-DAY -->
@@ -46,14 +46,9 @@
             </div>
         </div>
 
-        <!-- 자기 소개 -->
-        <div class="sideSelf">
-            <p class="yourself">이것이 뭐하는 짓인지 알 수 없죠?</p>
-        </div>
-
         <!-- 버튼 모임-->
         <div class="sideBtn1">
-            <button type="submit" class="logout"><a class = "href" href="logout.jsp">로그아웃</a></button>
+            <button type="submit" class="logout"><a class = "href" href="Logout.jsp">로그아웃</a></button>
         </div>
         <div class="sideBtn2">
             <button type="submit" class="member"><a class = "href" href="Update.jsp">회원정보수정</a></button>

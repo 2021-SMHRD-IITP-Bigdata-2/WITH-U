@@ -20,7 +20,6 @@
 	<!-- ---------------------------END HEADER----------------------------------->
 
 	<!-- ---------------------------BEGIN CONTENT--------------------------------->
-<<<<<<< HEAD
 	 <div class="container">
         <div class="qcontainer">
             <div class="question">

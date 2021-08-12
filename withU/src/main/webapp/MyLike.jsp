@@ -17,7 +17,7 @@
 		<!-- 사이드 타잍틀 -->
 		<div class="sideTitle">
 			<span><p class="title">
-					<a class="href" href="main_fin.html">WITH U</a>
+					<a class="href" href="Main.jsp">WITH U</a>
 				</p></span>
 		</div>
 
@@ -50,17 +50,17 @@
 		<!-- 버튼 모임-->
 		<div class="sideBtn1">
 			<button type="submit" class="logout">
-				<a class="href" href="login_fin.html">로그아웃</a>
+				<a class="href" href="Logout.jsp">로그아웃</a>
 			</button>
 		</div>
 		<div class="sideBtn2">
 			<button type="submit" class="member">
-				<a class="href" href="">회원정보수정</a>
+				<a class="href" href="Update.jsp">회원정보수정</a>
 			</button>
 		</div>
 		<div class="sideBtn3">
 			<button type="submit" class="dday">
-				<a class="href" href="">D-Day 수정</a>
+				<a class="href" href="SetDday.jsp">D-Day 수정</a>
 			</button>
 		</div>
 	</div>

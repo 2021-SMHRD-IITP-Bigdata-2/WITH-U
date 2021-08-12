@@ -28,19 +28,19 @@ public class LoginCon extends HttpServlet {
 	      MemberDTO member = dao.member_login(id, pw);
 	      
 	      
-	            // rs°´Ã¼¿¡ ÀúÀåÀÌ µÆ´ÂÁö ¾Ë¾Æº¸´Â ¸Þ¼Òµå : .next()
-	            // rs.next() :::: rs ÀÇ cursor¸¦ ÇÑ ÁÙ ³»·ÁÁÜ
-	            // rs.next() °¡ true ÀÌ´Ù = DB¿¡¼­ °¡Á®¿Â Á¤º¸°¡ ÀÖ´Ù
-	       if(member != null){   // DB·ÎºÎÅÍ ¹ÞÀº Á¤º¸ È®ÀÎ
+	            // rsï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´ï¿½ï¿½ï¿½ ï¿½Ë¾Æºï¿½ï¿½ï¿½ ï¿½Þ¼Òµï¿½ : .next()
+	            // rs.next() :::: rs ï¿½ï¿½ cursorï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	            // rs.next() ï¿½ï¿½ true ï¿½Ì´ï¿½ = DBï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½
+	       if(member != null){   // DBï¿½Îºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 
 	          HttpSession session = request.getSession();
 	          session.setAttribute("login_member",member);
 	          response.sendRedirect("Main.jsp");
 	          
-	          System.out.println("·Î±×ÀÎ ¼º°ø !");
+	          System.out.println("login success");
 	          
 	         } else{
-	                System.out.println("·Î±×ÀÎ ½ÇÆÐ...");
+	                System.out.println("login fail");
 	                response.sendRedirect("Login.jsp");
 	        }
 

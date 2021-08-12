@@ -56,7 +56,7 @@
 		<!-- 버튼 모임-->
 		<div class="sideBtn1">
 			<button type="submit" class="logout">
-				<a class="href" href="Main.jsp">로그아웃</a>
+				<a class="href" href="Logout.jsp">로그아웃</a>
 			</button>
 		</div>
 		<div class="sideBtn2">
