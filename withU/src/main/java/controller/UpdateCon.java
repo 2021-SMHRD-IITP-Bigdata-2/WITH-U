@@ -48,7 +48,7 @@ public class UpdateCon extends HttpServlet {
 			System.out.println("update success");
 
 	    } else {
-	    	System.out.println("�������� ����...");
+	    	System.out.println("update fail");
 	    	response.sendRedirect("Update.jsp");
 	    }	
 	}
