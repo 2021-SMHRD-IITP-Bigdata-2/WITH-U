@@ -10,7 +10,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/memberedit.css">
+	<link rel="stylesheet" href="css/Update.css">
 	<link rel="stylesheet" href="css/sidebar.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -36,7 +36,7 @@
 		<div class="sideImg">
 			<div class="img">
 				<p class="imgs">
-					<img class="profileImg" src="images/profile.jpg" alt="profileimg">
+					<img class="profileImg" src="images/Profile_set.jpg" alt="profileimg">
 				</p>
 			</div>
 		</div>
@@ -44,13 +44,8 @@
 		<!-- 닉네임 -->
 		<div class="sideNick">
 			<div class="nick">
-				<span class="nickName">Chan</span>
+				<span class="nickName">닉네임</span>
 			</div>
-		</div>
-
-		<!-- 자기 소개 -->
-		<div class="sideSelf">
-			<p class="yourself">이것이 뭐하는 짓인지 알 수 없죠?</p>
 		</div>
 
 		<!-- 버튼 모임-->
@@ -86,7 +81,7 @@
 			<div class="divphoto">
 				<div id="image_container">
 					<p class="imgcenter">
-						<img class="imgsize" src="images/preview.png" id="img_section">
+						<img class="imgsize" src="images/Profile_set.jpg" id="img_section">
 					</p>
 					<br>
 					<button class="browse_btn">

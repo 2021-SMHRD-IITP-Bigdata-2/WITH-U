@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/setDday.css"/>
+    <link rel="stylesheet" href="css/SetDday.css"/>
     <link rel="stylesheet" href="css/sidebar.css">
 </head>
 <body>
@@ -27,22 +27,17 @@
         <!-- 프로필 이미지 -->
         <div class="sideImg">
             <div class="img">
-                <p class="imgs"><img class = "profileImg "src="images/profile.jpg" alt="profileimg"></p>
+                <p class="imgs"><img class = "profileImg "src="images/Profile_set.jpg" alt="profileimg"></p>
             </div>
         </div>
 
         <!-- 닉네임 -->
         <div class = "sideNick">
             <div class="nick">
-                <span class="nickName">Chan</span>
+                <span class="nickName">닉네임</span>
             </div>
         </div>
-
-        <!-- 자기 소개 -->
-        <div class="sideSelf">
-            <p class="yourself">이것이 뭐하는 짓인지 알 수 없죠?</p>
-        </div>
-
+        
         <!-- 버튼 모임-->
         <div class="sideBtn1">
             <button type="submit" class="logout"><a class = "href" href="Logout.jsp">로그아웃</a></button>

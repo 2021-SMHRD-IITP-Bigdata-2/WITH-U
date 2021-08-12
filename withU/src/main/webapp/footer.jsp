@@ -46,7 +46,7 @@
                         </a>
                     </td>
                     <td class="mypage">
-                        <a class = fhref href="MyBoard.jsp">
+                        <a class = fhref href="MyPage.jsp">
                             <i id ="icon" class="far fa-laugh-wink"></i>
                             <br>
                             <p class="font">MYPAGE</p>

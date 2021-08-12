@@ -10,7 +10,7 @@
 <head>
 <meta charset="EUC-KR">
 <title>Insert title here</title>
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/Main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 </head>
@@ -30,10 +30,10 @@
                     <tr>
                         <td class="leftblank">　</td>
                         <td>
-                            <button type="submit" class="ansbtn"><a class= "href" href="qustion.html">질문에 답하기</a></button>
+                            <button type="submit" class="ansbtn"><a class= "href" href="QnA.jsp">질문에 답하기</a></button>
                         </td>
                         <td>
-                            <button type="submit" class="wrbtn"><a class= "href" href="">다이어리 쓰기</a></button>
+                            <button type="submit" class="wrbtn"><a class= "href" href="Diary.jsp">다이어리 쓰기</a></button>
                         </td>
                         <td class="rightblank">　</td>
                     </tr>
@@ -43,7 +43,7 @@
         <div class="postcontainer">
             <div class="hr">
                 <div class="member">
-                    <img class = "memberImg"src="images/profile.jpg">
+                    <img class = "memberImg"src="images/Profile_set.jpg">
                     <strong class="nick">닉네임</strong>
                     <strong class="date">21.08.04 Wed 16:50</strong>
                 </div>

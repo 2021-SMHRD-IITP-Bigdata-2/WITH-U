@@ -9,7 +9,7 @@
 <title>Document</title>
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-<link rel="stylesheet" href="css/testResult.css" />
+<link rel="stylesheet" href="css/TestResult.css" />
 <link rel="stylesheet" href="css/sidebar.css">
 </head>
 <body>
@@ -32,7 +32,7 @@
 		<div class="sideImg">
 			<div class="img">
 				<p class="imgs">
-					<img class="profileImg " src="images/profile.jpg" alt="profileimg">
+					<img class="profileImg " src="images/Profile_set.jpg" alt="profileimg">
 				</p>
 			</div>
 		</div>
@@ -40,13 +40,8 @@
 		<!-- 닉네임 -->
 		<div class="sideNick">
 			<div class="nick">
-				<span class="nickName">Chan</span>
+				<span class="nickName">닉네임</span>
 			</div>
-		</div>
-
-		<!-- 자기 소개 -->
-		<div class="sideSelf">
-			<p class="yourself">이것이 뭐하는 짓인지 알 수 없죠?</p>
 		</div>
 
 		<!-- 버튼 모임-->
@@ -76,7 +71,7 @@
 			</div>
 			<nav id="header-menu">
 				<ul>
-					<li class="nav-item"><a href="MyBoard.jsp" data-toggle="tab"
+					<li class="nav-item"><a href="MyPage.jsp" data-toggle="tab"
 						id="nonsee">글 보기</a></li>
 					<li class="nav-item"><a href="#" data-toggle="tab" id="see">자가진단
 							결과</a></li>
@@ -104,15 +99,15 @@
 						</div>
 					</td>
 					<td class="number">1회차</td>
-					<td class="score"><strong>80점</strong></td>
+					<td class="score"><strong>점수</strong></td>
 				</tr>
 				<tr>
 					<td class="number">2회차</td>
-					<td class="score"><strong>50점</strong></td>
+					<td class="score"><strong>점수</strong></td>
 				</tr>
 				<tr>
 					<td class="number">3회차</td>
-					<td class="score"><strong>10점</strong></td>
+					<td class="score"><strong>점수</strong></td>
 				</tr>
 
 				<tr>

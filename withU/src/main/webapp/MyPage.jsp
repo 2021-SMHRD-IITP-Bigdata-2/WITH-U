@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/my_board_fin.css"/>
+    <link rel="stylesheet" href="css/MyPage.css"/>
     <link rel="stylesheet" href="css/sidebar.css"/>
 
 
@@ -35,7 +35,7 @@
         <!-- 프로필 이미지 -->
         <div class="sideImg">
             <div class="img">
-                <p class="imgs"><img class = "profileImg "src="images/profile.jpg" alt="profileimg"></p>
+                <p class="imgs"><img class = "profileImg "src="images/Profile_set.jpg" alt="profileimg"></p>
             </div>
         </div>
 
