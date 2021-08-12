@@ -24,7 +24,7 @@
                             
                         </a>
                     </td>
-                    <td class="diary">
+                    <td class="fdiary">
                         <a class = fhref href="Diary.jsp">
                             <i id ="icon" class="fas fa-pencil-alt"></i>
                             <br>
