@@ -29,7 +29,7 @@ public class MemberDTO {
 	// Alt+Shift+S -> Generate Constructor using Field...
 	public MemberDTO(String id, String pw, String name, String nick, String tel, String addr, String bir, String gender,
 			String p_img) {
-		super();
+
 		this.id = id;
 		this.pw = pw;
 		this.name = name;

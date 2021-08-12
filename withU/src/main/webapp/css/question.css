@@ -4,14 +4,14 @@ html, body{
 }
 div.container{
     max-width: 750px;
-    margin: 0 auto; /* 화면 가운데로 */
+    margin: 0 auto; /* �솕硫� 媛��슫�뜲濡� */
     background-color: #fff;
     padding: 20px;
     box-sizing: border-box; 
 }
 .qcontainer {
     margin-top: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     background: rgba(196, 196, 196, 0.37);
     border: 1px solid #e6e6e6;
     padding: 35px 20px;

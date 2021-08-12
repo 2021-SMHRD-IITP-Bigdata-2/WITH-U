@@ -148,7 +148,7 @@
 						<tr>
 							<td>
 								<div class="inputForm">
-									积斥岿老 <input type="date" style="margin-left: 30px;">
+									积斥岿老 <input type="date" name="bir" value="date" style="margin-left: 30px;">
 								</div>
 							</td>
 						</tr>
