@@ -51,13 +51,13 @@ div.favorite-set{
     padding: 10px 20px;
     border-radius: 2px;
     color: #2f4f4f;
-    &:hover {
-        background-color: #daa520;
-        color: #fff;
     }
+a.favorite-a:hover {
+    background-color: #2f4f4f;
+    color: #fff;
 }
 .active {
-    background-color: #daa520;
+    background-color: #2f4f4f;
     color: #fff;
 }
 div.footblank {
