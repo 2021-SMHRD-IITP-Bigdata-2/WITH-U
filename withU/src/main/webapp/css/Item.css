@@ -4,7 +4,7 @@ html, body{
 }
 div.container{
     max-width: 750px;
-    margin: 0 auto; /* 화면 가운데로 */
+    margin: 0 auto; /* �솕硫� 媛��슫�뜲濡� */
     background-color: #fff;
     padding: 20px;
     box-sizing: border-box; 
@@ -51,13 +51,9 @@ div.favorite-set{
     padding: 10px 20px;
     border-radius: 2px;
     color: #2f4f4f;
-    &:hover {
-        background-color: #daa520;
-        color: #fff;
-    }
 }
 .active {
-    background-color: #daa520;
+    background-color: #2f4f4f;
     color: #fff;
 }
 div.footblank {
