@@ -21,13 +21,13 @@
 	
 	<!-- ---------------------------BEGIN CONTENT----------------------------------->
 	<div class="container">
-	<form action="" method="post">
+	<form action="DiarySaveCon" method="post">
         <div class="diary">
             <div class="title">
                 <input class = "titleIn" type="text" name="title" placeholder="제목을 입력해주세요">
             </div>
             <div class="divphoto">
-                <input class="image_file" type="file" accept="image/*" id="real-input" onchange="setThumbnail(event);">
+                <input class="image_file" type="file" accept="image/*" id="real-input" name="img" onchange="setThumbnail(event);">
                 <button class="browse_btn">
                     <i class="far fa-image" id="imgicon"></i>
                     <span class="photo">사진을 추가하세요</span>
@@ -38,12 +38,12 @@
             </div>
             <div class="textbox">
                 <div class="text">
-                    <p class="textp"><textarea class = "textbox" name="textbox" cols="90" rows="20" placeholder="글을 작성하는 공간입니다."></textarea></p>
+                    <p class="textp"><textarea class = "textbox" name="content" cols="90" rows="20" placeholder="글을 작성하는 공간입니다."></textarea></p>
                 </div>
             <div class="btn">
-                <input class ="radio" type="radio" name="private" value="공개"><label>공개</label>
-                <input class ="radio" type="radio" name="private" value="비공개"><label>비공개</label>
-                <button type="submit" class="save"><a class= "btnhref" href="">저장하기</a></button>
+                <input class ="radio" type="radio" name="private" value="0"><label>공개</label>
+                <input class ="radio" type="radio" name="private" value="1"><label>비공개</label>
+                <button type="submit" class="save"><a class= "btnhref" href="Main.jsp">저장하기</a></button>
                 <button class="back"><a class= "btnhref" href="Main.jsp">돌아가기</a></button>
             </div>
             </div>

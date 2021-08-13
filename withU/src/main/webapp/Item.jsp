@@ -8,10 +8,11 @@
 	ProfileDTO profile = (ProfileDTO) session.getAttribute("login_profile");
 
 	ItemDAO i_dao = new ItemDAO();
-	
 	ArrayList<ItemDTO> i_list = new ArrayList<>();
-	
 	i_list = i_dao.item_view();
+	
+	
+	
 %>
 
 <!DOCTYPE html>

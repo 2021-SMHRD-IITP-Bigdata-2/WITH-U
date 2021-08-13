@@ -49,7 +49,6 @@ public class ItemDAO {
 	   }
 	   
 	   public ArrayList<ItemDTO> item_view() {
-		// 받은 사람이 현재 session영역에 저장된 ID 와 같을 때 검색
 			
 			// ArrayList
 			ArrayList<ItemDTO> list = new ArrayList<ItemDTO>();
