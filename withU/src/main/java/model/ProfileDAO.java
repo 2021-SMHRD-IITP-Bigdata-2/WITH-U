@@ -114,7 +114,7 @@ public class ProfileDAO {
 			   
 			   connection();
 			   
-			   String sql = "UPDATE PROFILE SET NICK=?, PW=?, NAME=?, TEL=?, BIR=?, GENDER=? ADDR=? WHERE ID=?";
+			   String sql = "UPDATE PROFILE SET NICK=?, PW=?, NAME=?, TEL=?, BIR=?, GENDER=?, ADDR=? WHERE ID=?";
 			   
 			   psmt = conn.prepareStatement(sql);
 			   
