@@ -52,8 +52,7 @@
 
 					<div class="item-img">
 						<p class="pcenter">
-							<img class="i-img" src="<%=i_list.get(i).getI_img()
-							%>">
+							<img class="i-img" src="<%=i_list.get(i).getI_img()%>">
 						</p>
 					</div>
 					<div class="item-name">
@@ -65,10 +64,6 @@
 							<a class="favorite-a"> <i class="fas fa-star"> Like</i>
 							</a>
 						</div>
-						<!-- <div class="button-container dislike-container">
-							<a class="favorite-a"> <i class="fas fa-star"> Dislike</i>
-							</a>
-						</div> -->
 					</div>
 				</div>
 				<%

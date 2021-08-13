@@ -51,6 +51,13 @@ div.favorite-set{
     padding: 10px 20px;
     border-radius: 2px;
     color: #2f4f4f;
+<<<<<<< HEAD
+=======
+    }
+a.favorite-a:hover {
+    background-color: #2f4f4f;
+    color: #fff;
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-IITP-Bigdata-2/WITH-U.git
 }
 .active {
     background-color: #2f4f4f;
