@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
-<%@ page import="model.MemberDTO" %>
-<%
-	MemberDTO member = (MemberDTO)session.getAttribute("login_member");
-%>
+<%@page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@page import="model.ProfileDTO"%>
 
+<%
+	ProfileDTO profile = (ProfileDTO)session.getAttribute("login_profile");
+%>
 
 <!DOCTYPE html>
 <html>

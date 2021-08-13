@@ -1,8 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
-<%@ page import="model.MemberDTO" %>
+<%@page import="model.ProfileDTO"%>
+
 <%
-	MemberDTO member = (MemberDTO)session.getAttribute("login_member");
+	ProfileDTO profile = (ProfileDTO)session.getAttribute("login_profile");
 %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

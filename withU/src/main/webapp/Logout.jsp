@@ -11,7 +11,7 @@
 	<%
 		session.invalidate();
 		response.sendRedirect("Login.jsp");
-		System.out.println("로그아웃 성공");
+		System.out.println("Logout Success !!");
 	%>
 
 </body>

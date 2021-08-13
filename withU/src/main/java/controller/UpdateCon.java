@@ -9,9 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import model.MemberDAO;
-import model.MemberDTO;
-
+import model.ProfileDAO;
+import model.ProfileDTO;
 
 @WebServlet("/UpdateCon")
 public class UpdateCon extends HttpServlet {
@@ -19,38 +18,39 @@ public class UpdateCon extends HttpServlet {
 
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
 		request.setCharacterEncoding("EUC-KR");
 		
 		HttpSession session = request.getSession();
-		MemberDTO member = (MemberDTO)session.getAttribute("login_member");
+		ProfileDTO profile = (ProfileDTO)session.getAttribute("login_profile");
 		
-		String id = member.getId();
+		
+		String id = profile.getId();
+		String nick = request.getParameter("nick");
 		String pw = request.getParameter("pw");
 		String name = request.getParameter("name");
-		String nick = request.getParameter("nick");
 		String tel = request.getParameter("tel");
-		String addr = request.getParameter("addr");
 		String bir = request.getParameter("bir");
 		String gender = request.getParameter("gender");
-		String p_img = request.getParameter("p_img");
+		String addr = request.getParameter("addr");
 		
+		ProfileDTO update_profile = new ProfileDTO(id, pw, nick, name, tel, addr, bir, gender, null);
 		
-		// ������ 3���� ������ ��ü�� ��� ���� --> DB�� ����
-		MemberDTO update_member = new MemberDTO(id, pw, name, nick, tel, addr, bir, gender, p_img);
+		ProfileDAO dao = new ProfileDAO();
 		
-		MemberDAO dao = new MemberDAO();
-		int cnt = dao.member_update(update_member);
-		
+		int cnt = dao.profile_update(update_profile);
 		
 		
 		if(cnt > 0) {
-			response.sendRedirect("Main.jsp");
-			System.out.println("update success");
-
-	    } else {
-	    	System.out.println("update fail");
-	    	response.sendRedirect("Update.jsp");
-	    }	
+			
+			session.setAttribute("login_profile", update_profile);
+			response.sendRedirect("MyPage.jsp");
+			System.out.println("profile Update Success !");
+		} else {
+			System.out.println("profile Update Fail...");
+			response.sendRedirect("Update.jsp");
+		}
+		
 	}
 
 }

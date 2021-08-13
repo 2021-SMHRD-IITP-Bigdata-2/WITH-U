@@ -36,7 +36,7 @@
             </tr>
             <tr>
                 <td>
-                    <button type="submit" class="loginBtn"><a class= "loginHref1"href="Main.jsp">로그인</a></button>
+                    <button type="submit" class="loginBtn"><a class= "loginHref1" href="Main.jsp">로그인</a></button>
                 </td>
             </tr>
             <tr>

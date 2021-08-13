@@ -1,5 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+
+<%@page import="model.ProfileDTO"%>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +14,12 @@
     <link rel="stylesheet" href="css/head.css">
 </head>
 <body>
-    <div class="header">
+
+	<%
+	ProfileDTO dto = (ProfileDTO) session.getAttribute("login_profile");
+	%>
+
+	<div class="header">
         <div class="wrapper">
             <a class = "logoA" href="Main.jsp"><h1 class="logo">WITH U</h1></a>
             <div class="menu">
