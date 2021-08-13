@@ -24,10 +24,13 @@
             <a class = "logoA" href="Main.jsp"><h1 class="logo">WITH U</h1></a>
             <div class="menu">
                 <ul class="nav">
-                    <li class="navli"><a href="MyPage.jsp"><img class="profile" src="images/Profile_set.jpg"></a></li>
+                    <li class="navli"><a href="MyPage.jsp"><img class="profile" src="" onerror="this.src='images/Profile_set.jpg'"></a></li>
                 </ul>
             </div>
         </div>
     </div>
+    
+    <script src="js/imagePreview.js"></script>
+    
 </body>
 </html>
